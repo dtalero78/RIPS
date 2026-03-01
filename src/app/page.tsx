@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import {
   FileText,
   Shield,
@@ -13,11 +14,10 @@ export default function Home() {
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
       <header className="bg-white border-b border-gray-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-16 h-16 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <FileText className="w-7 h-7 text-primary-600" />
-            <span className="text-xl font-bold text-gray-900">RIPS SaaS</span>
-          </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-16 h-24 flex items-center justify-between">
+          <Link href="/" className="flex items-center">
+            <Image src="/logo.png" alt="RIPS SaaS" width={210} height={60} className="h-[75px] w-auto" />
+          </Link>
           <div className="flex items-center gap-4">
             <Link
               href="/login"
@@ -199,12 +199,9 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-white border-t border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-16 py-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-2">
-            <FileText className="w-5 h-5 text-primary-600" />
-            <span className="text-sm font-semibold text-gray-900">
-              RIPS SaaS
-            </span>
-          </div>
+          <Link href="/" className="flex items-center">
+            <Image src="/logo.png" alt="RIPS SaaS" width={210} height={60} className="h-12 w-auto" />
+          </Link>
           <p className="text-xs text-gray-400">
             &copy; {new Date().getFullYear()} RIPS SaaS. Todos los derechos
             reservados.

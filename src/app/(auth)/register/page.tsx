@@ -3,7 +3,8 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { FileText, Eye, EyeOff } from "lucide-react";
+import Image from "next/image";
+import { Eye, EyeOff } from "lucide-react";
 import { registerAction } from "@/actions/auth";
 
 export default function RegisterPage() {
@@ -46,9 +47,8 @@ export default function RegisterPage() {
       {/* Left panel - Branding */}
       <div className="hidden lg:flex lg:w-3/5 bg-[#e6f4fd] items-center justify-center p-16">
         <div className="max-w-md animate-fade-in">
-          <div className="flex items-center gap-3 mb-8">
-            <FileText className="w-10 h-10 text-primary-600" />
-            <span className="text-3xl font-bold text-gray-900">RIPS SaaS</span>
+          <div className="mb-8">
+            <Image src="/logo.png" alt="RIPS SaaS" width={210} height={60} className="h-[120px] w-auto" />
           </div>
           <h2 className="text-4xl font-bold text-gray-900 leading-tight mb-4">
             Registra tu IPS en minutos
@@ -63,9 +63,8 @@ export default function RegisterPage() {
       {/* Right panel - Form */}
       <div className="w-full lg:w-2/5 bg-white flex flex-col px-10 lg:px-14 py-10 overflow-y-auto">
         {/* Mobile logo */}
-        <div className="lg:hidden flex items-center gap-2 mb-8">
-          <FileText className="w-7 h-7 text-primary-600" />
-          <span className="text-xl font-bold text-gray-900">RIPS SaaS</span>
+        <div className="lg:hidden mb-8">
+          <Image src="/logo.png" alt="RIPS SaaS" width={210} height={60} className="h-[75px] w-auto" />
         </div>
 
         <div className="flex-1 flex flex-col justify-center max-w-sm mx-auto w-full">

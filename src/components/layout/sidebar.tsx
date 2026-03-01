@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import {
   LayoutDashboard,
@@ -59,11 +60,10 @@ export default function Sidebar({
         }`}
       >
         {/* Logo */}
-        <div className="h-16 flex items-center justify-between px-6 border-b border-gray-100">
-          <div className="flex items-center gap-2">
-            <Receipt className="w-6 h-6 text-primary-600" />
-            <span className="text-lg font-bold text-gray-900">RIPS SaaS</span>
-          </div>
+        <div className="h-20 flex items-center justify-between px-6 border-b border-gray-100">
+          <Link href="/dashboard" className="flex items-center">
+            <Image src="/logo.png" alt="RIPS SaaS" width={210} height={60} className="h-[60px] w-auto" />
+          </Link>
           <button
             onClick={onClose}
             className="lg:hidden text-gray-400 hover:text-gray-600"
