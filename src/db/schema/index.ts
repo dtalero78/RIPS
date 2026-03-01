@@ -9,6 +9,7 @@ export * from "./medicos";
 export * from "./servicios";
 export * from "./facturas";
 export * from "./atenciones";
+export * from "./rips-generaciones";
 
 // Reference tables
 export * from "./ref-tipos-documento";
