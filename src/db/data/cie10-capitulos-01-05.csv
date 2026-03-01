@@ -1,0 +1,1222 @@
+codigo,nombre
+A00,Colera
+A00.0,Colera debido a Vibrio cholerae O1 biotipo cholerae
+A00.1,Colera debido a Vibrio cholerae O1 biotipo El Tor
+A00.9,Colera no especificado
+A01,Fiebres tifoidea y paratifoidea
+A01.0,Fiebre tifoidea
+A01.1,Fiebre paratifoidea A
+A01.2,Fiebre paratifoidea B
+A01.3,Fiebre paratifoidea C
+A01.4,Fiebre paratifoidea no especificada
+A02,Otras infecciones debidas a Salmonella
+A02.0,Enteritis debida a Salmonella
+A02.1,Septicemia debida a Salmonella
+A02.2,Infecciones localizadas debidas a Salmonella
+A02.8,Otras infecciones especificadas debidas a Salmonella
+A02.9,Infeccion debida a Salmonella no especificada
+A03,Shigelosis
+A03.0,Shigelosis debida a Shigella dysenteriae
+A03.1,Shigelosis debida a Shigella flexneri
+A03.2,Shigelosis debida a Shigella boydii
+A03.3,Shigelosis debida a Shigella sonnei
+A03.8,Otras shigelosis
+A03.9,Shigelosis no especificada
+A04,Otras infecciones intestinales bacterianas
+A04.0,Infeccion intestinal debida a Escherichia coli enteropatogena
+A04.1,Infeccion intestinal debida a Escherichia coli enterotoxigena
+A04.2,Infeccion intestinal debida a Escherichia coli enteroinvasiva
+A04.3,Infeccion intestinal debida a Escherichia coli enterohemorragica
+A04.4,Otras infecciones intestinales debidas a Escherichia coli
+A04.5,Enteritis debida a Campylobacter
+A04.6,Enteritis debida a Yersinia enterocolitica
+A04.7,Enterocolitis debida a Clostridium difficile
+A04.8,Otras infecciones intestinales bacterianas especificadas
+A04.9,Infeccion intestinal bacteriana no especificada
+A05,Otras intoxicaciones alimentarias bacterianas no clasificadas en otra parte
+A05.0,Intoxicacion alimentaria estafilococica
+A05.1,Botulismo
+A05.2,Intoxicacion alimentaria debida a Clostridium perfringens
+A05.3,Intoxicacion alimentaria debida a Vibrio parahaemolyticus
+A05.4,Intoxicacion alimentaria debida a Bacillus cereus
+A05.8,Otras intoxicaciones alimentarias bacterianas especificadas
+A05.9,Intoxicacion alimentaria bacteriana no especificada
+A06,Amebiasis
+A06.0,Disenteria amebiana aguda
+A06.1,Amebiasis intestinal cronica
+A06.2,Colitis amebiana no disenterica
+A06.3,Ameboma intestinal
+A06.4,Absceso amebiano del higado
+A06.5,Absceso amebiano del pulmon
+A06.6,Absceso amebiano del cerebro
+A06.7,Amebiasis cutanea
+A06.8,Infeccion amebiana de otras localizaciones
+A06.9,Amebiasis no especificada
+A07,Otras enfermedades intestinales debidas a protozoarios
+A07.0,Balantidiasis
+A07.1,Giardiasis
+A07.2,Criptosporidiosis
+A07.3,Isosporiasis
+A07.8,Otras enfermedades intestinales especificadas debidas a protozoarios
+A07.9,Enfermedad intestinal debida a protozoarios no especificada
+A08,Infecciones intestinales debidas a virus y otros organismos especificados
+A08.0,Enteritis debida a rotavirus
+A08.1,Gastroenteropatia aguda debida al agente de Norwalk
+A08.2,Enteritis debida a adenovirus
+A08.3,Otras enteritis virales
+A08.4,Infeccion intestinal viral sin otra especificacion
+A08.5,Otras infecciones intestinales especificadas
+A09,Diarrea y gastroenteritis de presunto origen infeccioso
+A09.0,Otras gastroenteritis y colitis de origen infeccioso
+A09.9,Gastroenteritis y colitis de origen no especificado
+A15,Tuberculosis respiratoria confirmada bacteriologica e histologicamente
+A15.0,Tuberculosis del pulmon confirmada por hallazgo microscopico del bacilo tuberculoso en esputo
+A15.1,Tuberculosis del pulmon confirmada unicamente por cultivo
+A15.2,Tuberculosis del pulmon confirmada histologicamente
+A15.3,Tuberculosis del pulmon confirmada por medios no especificados
+A15.4,Tuberculosis de ganglios linfaticos intratoracicos confirmada bacteriologica e histologicamente
+A15.5,Tuberculosis de laringe traquea y bronquios confirmada bacteriologica e histologicamente
+A15.6,Pleuresia tuberculosa confirmada bacteriologica e histologicamente
+A15.7,Tuberculosis respiratoria primaria confirmada bacteriologica e histologicamente
+A15.8,Otras tuberculosis respiratorias confirmadas bacteriologica e histologicamente
+A15.9,Tuberculosis respiratoria no especificada confirmada bacteriologica e histologicamente
+A16,Tuberculosis respiratoria no confirmada bacteriologica o histologicamente
+A16.0,Tuberculosis del pulmon con examen bacteriologico e histologico negativos
+A16.1,Tuberculosis del pulmon sin examen bacteriologico e histologico
+A16.2,Tuberculosis de pulmon sin mencion de confirmacion bacteriologica o histologica
+A16.3,Tuberculosis de ganglios linfaticos intratoracicos sin mencion de confirmacion
+A16.4,Tuberculosis de laringe traquea y bronquios sin mencion de confirmacion
+A16.5,Pleuresia tuberculosa sin mencion de confirmacion bacteriologica o histologica
+A16.7,Tuberculosis respiratoria primaria sin mencion de confirmacion
+A16.8,Otras tuberculosis respiratorias sin mencion de confirmacion
+A16.9,Tuberculosis respiratoria no especificada sin mencion de confirmacion
+A17,Tuberculosis del sistema nervioso
+A17.0,Meningitis tuberculosa
+A17.1,Tuberculoma meningeo
+A17.8,Otras tuberculosis del sistema nervioso
+A17.9,Tuberculosis del sistema nervioso no especificada
+A18,Tuberculosis de otros organos
+A18.0,Tuberculosis de huesos y articulaciones
+A18.1,Tuberculosis del aparato genitourinario
+A18.2,Linfadenopatia periferica tuberculosa
+A18.3,Tuberculosis de los intestinos el peritoneo y los ganglios mesentericos
+A18.4,Tuberculosis de la piel y el tejido subcutaneo
+A18.5,Tuberculosis del ojo
+A18.6,Tuberculosis del oido
+A18.7,Tuberculosis de glandulas suprarrenales
+A18.8,Tuberculosis de otros organos especificados
+A19,Tuberculosis miliar
+A19.0,Tuberculosis miliar aguda de un solo sitio especificado
+A19.1,Tuberculosis miliar aguda de sitios multiples
+A19.2,Tuberculosis miliar aguda no especificada
+A19.8,Otras tuberculosis miliares
+A19.9,Tuberculosis miliar sin otra especificacion
+A20,Peste
+A20.0,Peste bubonica
+A20.7,Peste septicemica
+A20.9,Peste no especificada
+A21,Tularemia
+A21.0,Tularemia ulceroglandular
+A21.9,Tularemia no especificada
+A22,Carbunco [antrax]
+A22.0,Carbunco cutaneo
+A22.1,Carbunco pulmonar
+A22.9,Carbunco no especificado
+A23,Brucelosis
+A23.0,Brucelosis debida a Brucella melitensis
+A23.1,Brucelosis debida a Brucella abortus
+A23.9,Brucelosis no especificada
+A26,Erisipeloide
+A26.0,Erisipeloide cutaneo
+A26.9,Erisipeloide no especificado
+A27,Leptospirosis
+A27.0,Leptospirosis icterohemorragica
+A27.8,Otras formas de leptospirosis
+A27.9,Leptospirosis no especificada
+A30,Lepra [enfermedad de Hansen]
+A30.0,Lepra indeterminada
+A30.1,Lepra tuberculoide
+A30.3,Lepra dimorfa
+A30.5,Lepra lepromatosa
+A30.9,Lepra no especificada
+A31,Infecciones debidas a otras micobacterias
+A31.0,Infeccion pulmonar debida a Mycobacterium
+A31.1,Infeccion cutanea debida a Mycobacterium
+A31.9,Infeccion debida a Mycobacterium no especificada
+A32,Listeriosis
+A32.0,Listeriosis cutanea
+A32.7,Septicemia listeriana
+A32.9,Listeriosis no especificada
+A33,Tetanos neonatal
+A34,Tetanos obstetrico
+A35,Otros tetanos
+A36,Difteria
+A36.0,Difteria faringea
+A36.1,Difteria nasofaringea
+A36.2,Difteria laringea
+A36.9,Difteria no especificada
+A37,Tos ferina [tos convulsiva]
+A37.0,Tos ferina debida a Bordetella pertussis
+A37.1,Tos ferina debida a Bordetella parapertussis
+A37.9,Tos ferina no especificada
+A38,Escarlatina
+A39,Infeccion meningococica
+A39.0,Meningitis meningococica
+A39.1,Sindrome de Waterhouse-Friderichsen
+A39.2,Meningococemia aguda
+A39.4,Meningococemia no especificada
+A39.9,Infeccion meningococica no especificada
+A40,Septicemia estreptococica
+A40.0,Septicemia debida a estreptococos grupo A
+A40.1,Septicemia debida a estreptococos grupo B
+A40.3,Septicemia debida a Streptococcus pneumoniae
+A40.9,Septicemia estreptococica no especificada
+A41,Otras septicemias
+A41.0,Septicemia debida a Staphylococcus aureus
+A41.1,Septicemia debida a otro estafilococo especificado
+A41.2,Septicemia debida a estafilococo no especificado
+A41.3,Septicemia debida a Haemophilus influenzae
+A41.4,Septicemia debida a anaerobios
+A41.5,Septicemia debida a otros organismos gramnegativos
+A41.8,Otras septicemias especificadas
+A41.9,Septicemia no especificada
+A46,Erisipela
+A48,Otras enfermedades bacterianas no clasificadas en otra parte
+A48.0,Gangrena gaseosa
+A48.1,Enfermedad de los legionarios
+A49,Infeccion bacteriana de sitio no especificado
+A49.0,Infeccion estafilococica sin otra especificacion
+A49.1,Infeccion estreptococica sin otra especificacion
+A49.9,Infeccion bacteriana no especificada
+A50,Sifilis congenita
+A50.0,Sifilis congenita precoz sintomatica
+A50.9,Sifilis congenita no especificada
+A51,Sifilis precoz
+A51.0,Sifilis genital primaria
+A51.9,Sifilis precoz sin otra especificacion
+A52,Sifilis tardia
+A52.0,Sifilis cardiovascular
+A52.1,Neurosifilis sintomatica
+A52.9,Sifilis tardia no especificada
+A53,Otras sifilis y las no especificadas
+A53.0,Sifilis latente no especificada como precoz o tardia
+A53.9,Sifilis no especificada
+A54,Infeccion gonococica
+A54.0,Infeccion gonococica del tracto genitourinario inferior sin absceso periuretral o de glandula accesoria
+A54.1,Infeccion gonococica del tracto genitourinario inferior con absceso periuretral y de glandula accesoria
+A54.2,Pelviperitonitis gonococica y otras infecciones gonococicas genitourinarias
+A54.9,Infeccion gonococica no especificada
+A55,Linfogranuloma (venereo) por clamidias
+A56,Otras infecciones de transmision sexual debidas a clamidias
+A56.0,Infeccion del tracto genitourinario inferior debida a clamidias
+A56.1,Infeccion del pelviperitoneo y otros organos genitourinarios debida a clamidias
+A56.4,Infeccion de la faringe debida a clamidias
+A56.8,Infeccion de transmision sexual de otros sitios debida a clamidias
+A59,Tricomoniasis
+A59.0,Tricomoniasis urogenital
+A59.9,Tricomoniasis no especificada
+A60,Infeccion anogenital debida a virus del herpes [herpes simple]
+A60.0,Infeccion de genitales y trato urogenital debida a virus del herpes
+A60.1,Infeccion de margen cutaneo del ano y del recto debida a virus del herpes
+A60.9,Infeccion anogenital por virus del herpes simple sin otra especificacion
+A63,Otras enfermedades de transmision predominantemente sexual no clasificadas en otra parte
+A63.0,Verrugas (venéreas) anogenitales
+A64,Enfermedad de transmision sexual no especificada
+A65,Sifilis no venerea
+A66,Frambesia
+A66.0,Lesiones iniciales de frambesia
+A66.9,Frambesia no especificada
+A69,Otras infecciones por espiroquetas
+A69.0,Estomatitis ulcerativa necrotizante
+A69.1,Otras infecciones de Vincent
+A69.2,Enfermedad de Lyme
+A69.9,Infeccion por espiroqueta no especificada
+A70,Infeccion debida a Chlamydia psittaci
+A71,Tracoma
+A71.0,Estado inicial del tracoma
+A71.9,Tracoma no especificado
+A75,Tifus
+A75.0,Tifus epidemico transmitido por piojos debida a Rickettsia prowazekii
+A75.9,Tifus no especificado
+A77,Fiebre maculosa [rickettsiosis transmitida por garrapatas]
+A77.0,Fiebre maculosa debida a Rickettsia rickettsii
+A77.9,Fiebre maculosa no especificada
+A78,Fiebre Q
+A79,Otras rickettsiosis
+A79.9,Rickettsiosis no especificada
+A80,Poliomielitis aguda
+A80.0,Poliomielitis aguda paralitica asociada a vacuna
+A80.9,Poliomielitis aguda sin otra especificacion
+A81,Infecciones del sistema nervioso central por virus lento
+A81.0,Enfermedad de Creutzfeldt-Jakob
+A81.9,Infecciones del sistema nervioso central por virus lento sin otra especificacion
+A82,Rabia
+A82.0,Rabia selvatica
+A82.1,Rabia urbana
+A82.9,Rabia sin otra especificacion
+A83,Encefalitis viral transmitida por mosquitos
+A83.9,Encefalitis viral transmitida por mosquitos sin otra especificacion
+A84,Encefalitis viral transmitida por garrapatas
+A84.9,Encefalitis viral transmitida por garrapatas sin otra especificacion
+A85,Otras encefalitis virales no clasificadas en otra parte
+A85.0,Encefalitis por enterovirus
+A85.8,Otras encefalitis virales especificadas
+A86,Encefalitis viral no especificada
+A87,Meningitis viral
+A87.0,Meningitis por enterovirus
+A87.9,Meningitis viral no especificada
+A90,Fiebre del dengue [dengue clasico]
+A91,Fiebre del dengue hemorragico
+A92,Otras fiebres virales transmitidas por mosquitos
+A92.0,Enfermedad por virus Chikungunya
+A92.8,Otras fiebres virales especificadas transmitidas por mosquitos
+A93,Otras fiebres virales transmitidas por artropodos no clasificadas en otra parte
+A93.8,Otras fiebres virales especificadas transmitidas por artropodos
+A95,Fiebre amarilla
+A95.0,Fiebre amarilla selvatica
+A95.1,Fiebre amarilla urbana
+A95.9,Fiebre amarilla no especificada
+A96,Fiebre hemorragica por arenavirus
+A96.0,Fiebre hemorragica de Junin
+A96.9,Fiebre hemorragica por arenavirus sin otra especificacion
+A97,Dengue
+A97.0,Dengue sin signos de alarma
+A97.1,Dengue con signos de alarma
+A97.2,Dengue grave
+A98,Otras fiebres virales hemorragicas no clasificadas en otra parte
+A98.5,Fiebres hemorragicas con sindrome renal
+A99,Fiebres virales hemorragicas no especificadas
+B00,Infecciones herpeticas [herpes simple]
+B00.0,Eczema herpetico
+B00.1,Dermatitis vesicular herpetica
+B00.2,Gingivoestomatitis y faringoamigdalitis herpetica
+B00.5,Enfermedad herpetica del ojo
+B00.7,Enfermedad herpetica diseminada
+B00.9,Infeccion debida a virus del herpes sin otra especificacion
+B01,Varicela
+B01.0,Meningitis debida a varicela
+B01.1,Encefalitis debida a varicela
+B01.2,Neumonia debida a varicela
+B01.9,Varicela sin complicaciones
+B02,Herpes zoster
+B02.0,Encefalitis debida a herpes zoster
+B02.1,Meningitis debida a herpes zoster
+B02.2,Herpes zoster con otros compromisos del sistema nervioso
+B02.3,Herpes zoster ocular
+B02.7,Herpes zoster diseminado
+B02.9,Herpes zoster sin complicaciones
+B05,Sarampion
+B05.0,Sarampion complicado con encefalitis
+B05.2,Sarampion complicado con neumonia
+B05.9,Sarampion sin complicaciones
+B06,Rubeola [sarampion aleman]
+B06.0,Rubeola con complicaciones neurologicas
+B06.9,Rubeola sin complicaciones
+B07,Verrugas viricas
+B08,Otras infecciones virales caracterizadas por lesiones de la piel y de las membranas mucosas no clasificadas en otra parte
+B08.1,Molusco contagioso
+B09,Infeccion viral no especificada caracterizada por lesiones de la piel y de las membranas mucosas
+B15,Hepatitis aguda tipo A
+B15.0,Hepatitis aguda tipo A con coma hepatico
+B15.9,Hepatitis aguda tipo A sin coma hepatico
+B16,Hepatitis aguda tipo B
+B16.0,Hepatitis aguda tipo B con agente delta (coinfeccion) con coma hepatico
+B16.2,Hepatitis aguda tipo B sin agente delta con coma hepatico
+B16.9,Hepatitis aguda tipo B sin agente delta y sin coma hepatico
+B17,Otras hepatitis virales agudas
+B17.0,Infeccion (superinfeccion) aguda por agente delta en el portador de hepatitis B
+B17.1,Hepatitis aguda tipo C
+B17.2,Hepatitis aguda tipo E
+B17.8,Otras hepatitis virales agudas especificadas
+B18,Hepatitis viral cronica
+B18.0,Hepatitis viral tipo B cronica con agente delta
+B18.1,Hepatitis viral tipo B cronica sin agente delta
+B18.2,Hepatitis viral tipo C cronica
+B18.9,Hepatitis viral cronica sin otra especificacion
+B19,Hepatitis viral sin otra especificacion
+B19.0,Hepatitis viral no especificada con coma hepatico
+B19.9,Hepatitis viral no especificada sin coma hepatico
+B20,Enfermedad por virus de la inmunodeficiencia humana [VIH] resultante en enfermedades infecciosas y parasitarias
+B21,Enfermedad por virus de la inmunodeficiencia humana [VIH] resultante en tumores malignos
+B22,Enfermedad por virus de la inmunodeficiencia humana [VIH] resultante en otras enfermedades especificadas
+B23,Enfermedad por virus de la inmunodeficiencia humana [VIH] resultante en otras afecciones
+B23.0,Sindrome de infeccion aguda debida a VIH
+B23.8,Enfermedad por VIH resultante en otras afecciones especificadas
+B24,Enfermedad por virus de la inmunodeficiencia humana [VIH] sin otra especificacion
+B25,Enfermedad debida a virus citomegalico
+B25.0,Enfermedad citomegalica del pulmon
+B25.9,Enfermedad debida a virus citomegalico no especificada
+B26,Parotiditis infecciosa
+B26.0,Orquitis por parotiditis
+B26.1,Meningitis por parotiditis
+B26.3,Pancreatitis por parotiditis
+B26.9,Parotiditis sin complicaciones
+B27,Mononucleosis infecciosa
+B27.0,Mononucleosis debida a herpes virus gamma
+B27.9,Mononucleosis infecciosa no especificada
+B30,Conjuntivitis viral
+B30.0,Queratoconjuntivitis debida a adenovirus
+B30.9,Conjuntivitis viral no especificada
+B33,Otras enfermedades virales no clasificadas en otra parte
+B33.4,Sindrome (cardio) pulmonar por hantavirus
+B34,Infeccion viral de sitio no especificado
+B34.0,Infeccion debida a adenovirus sin otra especificacion
+B34.9,Infeccion viral no especificada
+B35,Dermatofitosis
+B35.0,Tina de la barba y del cuero cabelludo
+B35.1,Tina de las unas
+B35.2,Tina de la mano
+B35.3,Tina del pie
+B35.4,Tina del cuerpo
+B35.5,Tina imbricada
+B35.6,Tina inguinal [tina crural]
+B35.8,Otras dermatofitosis
+B35.9,Dermatofitosis no especificada
+B36,Otras micosis superficiales
+B36.0,Pitiriasis versicolor
+B36.1,Tina negra
+B36.9,Micosis superficial sin otra especificacion
+B37,Candidiasis
+B37.0,Estomatitis candidiasica
+B37.1,Candidiasis pulmonar
+B37.2,Candidiasis de la piel y de las unas
+B37.3,Candidiasis de la vulva y de la vagina
+B37.4,Candidiasis de otras localizaciones urogenitales
+B37.5,Meningitis debida a Candida
+B37.7,Septicemia debida a Candida
+B37.8,Candidiasis de otros sitios
+B37.9,Candidiasis no especificada
+B38,Coccidioidomicosis
+B38.9,Coccidioidomicosis no especificada
+B39,Histoplasmosis
+B39.0,Infeccion pulmonar aguda debida a Histoplasma capsulatum
+B39.9,Histoplasmosis no especificada
+B40,Blastomicosis
+B40.9,Blastomicosis no especificada
+B41,Paracoccidioidomicosis
+B41.0,Paracoccidioidomicosis pulmonar
+B41.9,Paracoccidioidomicosis no especificada
+B42,Esporotricosis
+B42.9,Esporotricosis no especificada
+B44,Aspergilosis
+B44.0,Aspergilosis pulmonar invasiva
+B44.1,Otras aspergilosis pulmonares
+B44.9,Aspergilosis no especificada
+B45,Criptococosis
+B45.0,Criptococosis pulmonar
+B45.1,Criptococosis cerebral
+B45.9,Criptococosis no especificada
+B46,Cigomicosis
+B46.0,Mucormicosis pulmonar
+B46.9,Cigomicosis no especificada
+B47,Micetoma
+B47.0,Eumicetoma
+B47.1,Actinomicetoma
+B47.9,Micetoma no especificado
+B48,Otras micosis no clasificadas en otra parte
+B49,Micosis no especificada
+B50,Paludismo [malaria] debida a Plasmodium falciparum
+B50.0,Paludismo debido a Plasmodium falciparum con complicaciones cerebrales
+B50.8,Otro paludismo grave y complicado debido a Plasmodium falciparum
+B50.9,Paludismo debido a Plasmodium falciparum sin otra especificacion
+B51,Paludismo [malaria] debido a Plasmodium vivax
+B51.0,Paludismo debido a Plasmodium vivax con rotura esplenica
+B51.8,Paludismo debido a Plasmodium vivax con otras complicaciones
+B51.9,Paludismo debido a Plasmodium vivax sin complicaciones
+B52,Paludismo [malaria] debido a Plasmodium malariae
+B52.0,Paludismo debido a Plasmodium malariae con nefropatia
+B52.9,Paludismo debido a Plasmodium malariae sin complicaciones
+B53,Otro paludismo [malaria] confirmado parasitologicamente
+B53.0,Paludismo debido a Plasmodium ovale
+B53.8,Otro paludismo confirmado parasitologicamente no clasificado en otra parte
+B54,Paludismo [malaria] no especificado
+B55,Leishmaniasis
+B55.0,Leishmaniasis visceral
+B55.1,Leishmaniasis cutanea
+B55.2,Leishmaniasis mucocutanea
+B55.9,Leishmaniasis no especificada
+B56,Tripanosomiasis africana
+B56.9,Tripanosomiasis africana no especificada
+B57,Enfermedad de Chagas
+B57.0,Forma aguda de la enfermedad de Chagas con compromiso cardiaco
+B57.1,Forma aguda de la enfermedad de Chagas sin compromiso cardiaco
+B57.2,Enfermedad de Chagas (cronica) con compromiso cardiaco
+B57.3,Enfermedad de Chagas (cronica) con compromiso del sistema digestivo
+B57.5,Enfermedad de Chagas (cronica) con compromiso de otros organos
+B58,Toxoplasmosis
+B58.0,Oculopatia debida a Toxoplasma
+B58.1,Hepatitis debida a Toxoplasma
+B58.2,Meningoencefalitis debida a Toxoplasma
+B58.9,Toxoplasmosis no especificada
+B59,Neumocistosis
+B60,Otras enfermedades debidas a protozoarios no clasificadas en otra parte
+B60.0,Babesiosis
+B60.8,Otras enfermedades especificadas debidas a protozoarios
+B64,Enfermedad debida a protozoarios no especificada
+B65,Esquistosomiasis [bilharziasis]
+B65.9,Esquistosomiasis no especificada
+B66,Otras infecciones debidas a trematodos
+B66.0,Opistorquiasis
+B67,Equinococosis
+B67.0,Infeccion del higado debida a Echinococcus granulosus
+B67.9,Equinococosis de otros sitios y la no especificada
+B68,Teniasis
+B68.0,Teniasis debida a Taenia solium
+B68.1,Teniasis debida a Taenia saginata
+B68.9,Teniasis no especificada
+B69,Cisticercosis
+B69.0,Cisticercosis del sistema nervioso central
+B69.1,Cisticercosis del ojo
+B69.9,Cisticercosis no especificada
+B70,Difilobotriasis y esparganosis
+B71,Otras infecciones debidas a cestodos
+B71.0,Himenolepiasis
+B71.9,Infeccion debida a cestodos no especificada
+B72,Dracontiasis
+B73,Oncocercosis
+B74,Filariasis
+B74.9,Filariasis no especificada
+B75,Triquinosis
+B76,Anquilostomiasis y necatoriasis
+B76.0,Anquilostomiasis
+B76.1,Necatoriasis
+B76.9,Anquilostomiasis y necatoriasis no especificadas
+B77,Ascariasis
+B77.0,Ascariasis con complicaciones intestinales
+B77.8,Ascariasis con otras complicaciones
+B77.9,Ascariasis no especificada
+B78,Estrongiloidiasis
+B78.0,Estrongiloidiasis intestinal
+B78.9,Estrongiloidiasis no especificada
+B79,Tricuriasis
+B80,Enterobiasis
+B81,Otras helmintiasis intestinales no clasificadas en otra parte
+B81.0,Anisaquiasis
+B81.4,Helmintiasis intestinal mixta
+B82,Parasitosis intestinal sin otra especificacion
+B82.0,Helmintiasis intestinal sin otra especificacion
+B82.9,Parasitosis intestinal sin otra especificacion
+B83,Otras helmintiasis
+B83.0,Larva migrans visceral
+B83.1,Gnatostomiasis
+B83.9,Helmintiasis no especificada
+B85,Pediculosis y ftiriasis
+B85.0,Pediculosis debida a Pediculus humanus capitis
+B85.1,Pediculosis debida a Pediculus humanus corporis
+B85.3,Ftiriasis
+B86,Escabiosis
+B87,Miasis
+B87.0,Miasis cutanea
+B87.9,Miasis no especificada
+B88,Otras infestaciones
+B88.0,Otras acariasis
+B89,Enfermedad parasitaria no especificada
+B90,Secuelas de tuberculosis
+B90.9,Secuelas de tuberculosis de organos no especificados
+B91,Secuelas de poliomielitis
+B92,Secuelas de lepra
+B94,Secuelas de otras enfermedades infecciosas y parasitarias y de las no especificadas
+B94.1,Secuelas de hepatitis viral
+B94.9,Secuelas de enfermedad infecciosa y parasitaria no especificada
+B95,Estreptococos y estafilococos como causa de enfermedades clasificadas en otros capitulos
+B95.0,Estreptococos grupo A como causa de enfermedades clasificadas en otros capitulos
+B95.6,Staphylococcus aureus como causa de enfermedades clasificadas en otros capitulos
+B96,Otros agentes bacterianos como causa de enfermedades clasificadas en otros capitulos
+B96.0,Mycoplasma pneumoniae como causa de enfermedades clasificadas en otros capitulos
+B96.2,Escherichia coli como causa de enfermedades clasificadas en otros capitulos
+B97,Virus como causa de enfermedades clasificadas en otros capitulos
+B97.0,Adenovirus como causa de enfermedades clasificadas en otros capitulos
+B97.4,Virus sincitial respiratorio como causa de enfermedades clasificadas en otros capitulos
+B99,Otras enfermedades infecciosas y las no especificadas
+C00,Tumor maligno del labio
+C00.9,Tumor maligno del labio parte no especificada
+C01,Tumor maligno de la base de la lengua
+C02,Tumor maligno de otras partes y de las no especificadas de la lengua
+C02.9,Tumor maligno de la lengua parte no especificada
+C03,Tumor maligno de la encia
+C04,Tumor maligno del piso de la boca
+C05,Tumor maligno del paladar
+C06,Tumor maligno de otras partes y de las no especificadas de la boca
+C07,Tumor maligno de la glandula parotida
+C08,Tumor maligno de otras glandulas salivales mayores y de las no especificadas
+C09,Tumor maligno de la amigdala
+C10,Tumor maligno de la orofaringe
+C11,Tumor maligno de la nasofaringe
+C12,Tumor maligno del seno piriforme
+C13,Tumor maligno de la hipofaringe
+C14,Tumor maligno de otros sitios y de los mal definidos del labio de la cavidad oral y de la faringe
+C15,Tumor maligno del esofago
+C15.9,Tumor maligno del esofago parte no especificada
+C16,Tumor maligno del estomago
+C16.0,Tumor maligno del cardias
+C16.1,Tumor maligno del fondo del estomago
+C16.2,Tumor maligno del cuerpo del estomago
+C16.3,Tumor maligno del antro pilorico
+C16.9,Tumor maligno del estomago parte no especificada
+C17,Tumor maligno del intestino delgado
+C18,Tumor maligno del colon
+C18.0,Tumor maligno del ciego
+C18.2,Tumor maligno del colon ascendente
+C18.3,Tumor maligno del angulo hepatico
+C18.4,Tumor maligno del colon transverso
+C18.7,Tumor maligno del colon sigmoide
+C18.9,Tumor maligno del colon parte no especificada
+C19,Tumor maligno de la union rectosigmoidea
+C20,Tumor maligno del recto
+C21,Tumor maligno del ano y del conducto anal
+C22,Tumor maligno del higado y de las vias biliares intrahepaticas
+C22.0,Carcinoma de celulas hepaticas
+C22.1,Carcinoma de vias biliares intrahepaticas
+C22.9,Tumor maligno del higado no especificado
+C23,Tumor maligno de la vesicula biliar
+C24,Tumor maligno de otras partes y de las no especificadas de las vias biliares
+C25,Tumor maligno del pancreas
+C25.0,Tumor maligno de la cabeza del pancreas
+C25.9,Tumor maligno del pancreas parte no especificada
+C26,Tumor maligno de otros sitios y de los mal definidos de los organos digestivos
+C30,Tumor maligno de las fosas nasales y del oido medio
+C31,Tumor maligno de los senos paranasales
+C32,Tumor maligno de la laringe
+C32.0,Tumor maligno de la glotis
+C32.9,Tumor maligno de la laringe parte no especificada
+C33,Tumor maligno de la traquea
+C34,Tumor maligno de los bronquios y del pulmon
+C34.0,Tumor maligno del bronquio principal
+C34.1,Tumor maligno del lobulo superior bronquio o pulmon
+C34.9,Tumor maligno de los bronquios o del pulmon parte no especificada
+C37,Tumor maligno del timo
+C38,Tumor maligno del corazon del mediastino y de la pleura
+C39,Tumor maligno de otros sitios y de los mal definidos del sistema respiratorio y de los organos intratoracicos
+C40,Tumor maligno de los huesos y de los cartilagos articulares de los miembros
+C41,Tumor maligno de los huesos y de los cartilagos articulares de otros sitios y de sitios no especificados
+C43,Melanoma maligno de la piel
+C43.0,Melanoma maligno del labio
+C43.5,Melanoma maligno del tronco
+C43.9,Melanoma maligno de la piel sitio no especificado
+C44,Otros tumores malignos de la piel
+C44.9,Tumor maligno de la piel sitio no especificado
+C45,Mesotelioma
+C46,Sarcoma de Kaposi
+C47,Tumor maligno de los nervios perifericos y del sistema nervioso autonomo
+C48,Tumor maligno del peritoneo y del retroperitoneo
+C49,Tumor maligno de otros tejidos conjuntivos y de tejidos blandos
+C50,Tumor maligno de la mama
+C50.0,Tumor maligno del pezon y de la areola mamaria
+C50.1,Tumor maligno de la porcion central de la mama
+C50.2,Tumor maligno del cuadrante superior interno de la mama
+C50.3,Tumor maligno del cuadrante inferior interno de la mama
+C50.4,Tumor maligno del cuadrante superior externo de la mama
+C50.5,Tumor maligno del cuadrante inferior externo de la mama
+C50.9,Tumor maligno de la mama parte no especificada
+C51,Tumor maligno de la vulva
+C52,Tumor maligno de la vagina
+C53,Tumor maligno del cuello del utero
+C53.0,Tumor maligno del endocervix
+C53.1,Tumor maligno del exocervix
+C53.9,Tumor maligno del cuello del utero sin otra especificacion
+C54,Tumor maligno del cuerpo del utero
+C54.1,Tumor maligno del endometrio
+C54.9,Tumor maligno del cuerpo del utero parte no especificada
+C55,Tumor maligno del utero parte no especificada
+C56,Tumor maligno del ovario
+C57,Tumor maligno de otros organos genitales femeninos y de los no especificados
+C58,Tumor maligno de la placenta
+C60,Tumor maligno del pene
+C61,Tumor maligno de la prostata
+C62,Tumor maligno del testiculo
+C63,Tumor maligno de otros organos genitales masculinos y de los no especificados
+C64,Tumor maligno del rinon excepto de la pelvis renal
+C65,Tumor maligno de la pelvis renal
+C66,Tumor maligno del ureter
+C67,Tumor maligno de la vejiga urinaria
+C67.9,Tumor maligno de la vejiga urinaria parte no especificada
+C68,Tumor maligno de otros organos urinarios y de los no especificados
+C69,Tumor maligno del ojo y sus anexos
+C70,Tumor maligno de las meninges
+C71,Tumor maligno del encefalo
+C71.9,Tumor maligno del encefalo parte no especificada
+C72,Tumor maligno de la medula espinal de los nervios craneales y de otras partes del sistema nervioso central
+C73,Tumor maligno de la glandula tiroides
+C74,Tumor maligno de la glandula suprarrenal
+C75,Tumor maligno de otras glandulas endocrinas y de estructuras afines
+C76,Tumor maligno de otros sitios y de sitios mal definidos
+C77,Tumor maligno secundario y el no especificado de los ganglios linfaticos
+C78,Tumor maligno secundario de los organos respiratorios y digestivos
+C79,Tumor maligno secundario de otros sitios
+C80,Tumor maligno de sitios no especificados
+C81,Enfermedad de Hodgkin
+C81.9,Enfermedad de Hodgkin no especificada
+C82,Linfoma no Hodgkin folicular [nodular]
+C82.9,Linfoma no Hodgkin folicular sin otra especificacion
+C83,Linfoma no Hodgkin difuso
+C83.9,Linfoma no Hodgkin difuso sin otra especificacion
+C84,Linfoma de celulas T periferico y cutaneo
+C85,Linfoma no Hodgkin de otro tipo y el no especificado
+C85.9,Linfoma no Hodgkin de tipo no especificado
+C88,Enfermedades inmunoproliferativas malignas
+C90,Mieloma multiple y tumores malignos de celulas plasmaticas
+C90.0,Mieloma multiple
+C91,Leucemia linfoide
+C91.0,Leucemia linfoblastica aguda
+C91.1,Leucemia linfocitica cronica
+C91.9,Leucemia linfoide sin otra especificacion
+C92,Leucemia mieloide
+C92.0,Leucemia mieloide aguda
+C92.1,Leucemia mieloide cronica
+C92.9,Leucemia mieloide sin otra especificacion
+C93,Leucemia monocitica
+C94,Otras leucemias de tipo celular especificado
+C95,Leucemia de celulas de tipo no especificado
+C95.0,Leucemia aguda de tipo celular no especificado
+C95.9,Leucemia no especificada
+C96,Tumor maligno de otros tejidos y los no especificados del tejido linfoide hematopoyetico y tejidos afines
+C97,Tumores malignos (primarios) de sitios multiples independientes
+D00,Carcinoma in situ de la cavidad bucal del esofago y del estomago
+D01,Carcinoma in situ de otros organos digestivos y de los no especificados
+D02,Carcinoma in situ del oido medio y del sistema respiratorio
+D03,Melanoma in situ
+D04,Carcinoma in situ de la piel
+D05,Carcinoma in situ de la mama
+D05.1,Carcinoma in situ intracanalicular de la mama
+D05.9,Carcinoma in situ de la mama parte no especificada
+D06,Carcinoma in situ del cuello del utero
+D06.9,Carcinoma in situ del cuello del utero parte no especificada
+D07,Carcinoma in situ de otros organos genitales y de los no especificados
+D09,Carcinoma in situ de otros sitios y de los no especificados
+D10,Tumor benigno de la boca y de la faringe
+D11,Tumor benigno de las glandulas salivales mayores
+D12,Tumor benigno del colon del recto del conducto anal y del ano
+D13,Tumor benigno de otras partes y de las mal definidas del sistema digestivo
+D14,Tumor benigno del oido medio y del sistema respiratorio
+D15,Tumor benigno de otros organos intratoracicos y de los no especificados
+D16,Tumor benigno del hueso y del cartilago articular
+D17,Tumor benigno lipomatoso
+D18,Hemangioma y linfangioma de cualquier sitio
+D19,Tumores benignos del tejido mesotelial
+D20,Tumor benigno de tejido blando del retroperitoneo y del peritoneo
+D21,Otros tumores benignos del tejido conjuntivo y de otros tejidos blandos
+D22,Nevo melanocitico
+D23,Otros tumores benignos de la piel
+D24,Tumor benigno de la mama
+D25,Leiomioma del utero
+D25.0,Leiomioma submucoso del utero
+D25.1,Leiomioma intramural del utero
+D25.9,Leiomioma del utero sin otra especificacion
+D26,Otros tumores benignos del utero
+D27,Tumor benigno del ovario
+D28,Tumor benigno de otros organos genitales femeninos y de los no especificados
+D29,Tumor benigno de los organos genitales masculinos
+D30,Tumor benigno de los organos urinarios
+D31,Tumor benigno del ojo y sus anexos
+D32,Tumor benigno de las meninges
+D33,Tumor benigno del encefalo y de otras partes del sistema nervioso central
+D34,Tumor benigno de la glandula tiroides
+D35,Tumor benigno de otras glandulas endocrinas y de las no especificadas
+D36,Tumor benigno de otros sitios y de los no especificados
+D37,Tumor de comportamiento incierto o desconocido de la cavidad bucal y de los organos digestivos
+D38,Tumor de comportamiento incierto o desconocido del oido medio y de los organos respiratorios e intratoracicos
+D39,Tumor de comportamiento incierto o desconocido de los organos genitales femeninos
+D40,Tumor de comportamiento incierto o desconocido de los organos genitales masculinos
+D41,Tumor de comportamiento incierto o desconocido de los organos urinarios
+D42,Tumor de comportamiento incierto o desconocido de las meninges
+D43,Tumor de comportamiento incierto o desconocido del encefalo y del sistema nervioso central
+D44,Tumor de comportamiento incierto o desconocido de las glandulas endocrinas
+D45,Policitemia vera
+D46,Sindromes mielodisplasicos
+D47,Otros tumores de comportamiento incierto o desconocido del tejido linfoide hematopoyetico y tejidos afines
+D48,Tumor de comportamiento incierto o desconocido de otros sitios y de los no especificados
+D50,Anemias por deficiencia de hierro
+D50.0,Anemia por deficiencia de hierro secundaria a perdida de sangre (cronica)
+D50.1,Disfagia sideropenica
+D50.8,Otras anemias por deficiencia de hierro
+D50.9,Anemia por deficiencia de hierro sin otra especificacion
+D51,Anemia por deficiencia de vitamina B12
+D51.0,Anemia por deficiencia de vitamina B12 debida a deficiencia del factor intrinseco
+D51.9,Anemia por deficiencia de vitamina B12 sin otra especificacion
+D52,Anemia por deficiencia de folatos
+D52.9,Anemia por deficiencia de folatos sin otra especificacion
+D53,Otras anemias nutricionales
+D53.9,Anemia nutricional no especificada
+D55,Anemia debida a trastornos enzimaticos
+D55.0,Anemia debida a deficiencia de glucosa-6-fosfato deshidrogenasa [G6PD]
+D56,Talasemia
+D56.9,Talasemia no especificada
+D57,Trastornos falciformes
+D57.0,Anemia falciforme con crisis
+D57.1,Anemia falciforme sin crisis
+D58,Otras anemias hemoliticas hereditarias
+D58.9,Anemia hemolitica hereditaria sin otra especificacion
+D59,Anemia hemolitica adquirida
+D59.0,Anemia hemolitica autoinmune inducida por drogas
+D59.1,Otras anemias hemoliticas autoinmunes
+D59.9,Anemia hemolitica adquirida sin otra especificacion
+D60,Aplasia adquirida pura de la serie roja [eritroblastopenia]
+D61,Otras anemias aplasticas
+D61.0,Anemia aplastica constitucional
+D61.9,Anemia aplastica sin otra especificacion
+D62,Anemia posthemorragica aguda
+D63,Anemia en enfermedades cronicas clasificadas en otra parte
+D64,Otras anemias
+D64.9,Anemia no especificada
+D65,Coagulacion intravascular diseminada [sindrome de desfibrinacion]
+D66,Deficiencia hereditaria del factor VIII
+D67,Deficiencia hereditaria del factor IX
+D68,Otros defectos de la coagulacion
+D68.0,Enfermedad de von Willebrand
+D68.9,Defecto de la coagulacion no especificado
+D69,Purpura y otras afecciones hemorragicas
+D69.0,Purpura alergica
+D69.1,Defectos cualitativos de las plaquetas
+D69.3,Purpura trombocitopenica idiopatica
+D69.6,Trombocitopenia no especificada
+D69.9,Afeccion hemorragica no especificada
+D70,Agranulocitosis
+D71,Trastornos funcionales de los polimorfonucleares neutrofilos
+D72,Otros trastornos de los leucocitos
+D72.0,Anomalias geneticas de los leucocitos
+D72.1,Eosinofilia
+D72.8,Otros trastornos especificados de los leucocitos
+D73,Enfermedades del bazo
+D73.0,Hipoesplenismo
+D73.1,Hiperesplenismo
+D74,Metahemoglobinemia
+D75,Otras enfermedades de la sangre y de los organos hematopoyeticos
+D75.0,Eritrocitosis familiar
+D75.1,Policitemia secundaria
+D76,Ciertas enfermedades que afectan al tejido linforreticular y al sistema reticulohistiocitico
+D80,Inmunodeficiencia con predominio de defectos de los anticuerpos
+D80.0,Hipogammaglobulinemia hereditaria
+D80.1,Hipogammaglobulinemia no familiar
+D81,Inmunodeficiencias combinadas
+D82,Inmunodeficiencia asociada con otros defectos mayores
+D83,Inmunodeficiencia variable comun
+D84,Otras inmunodeficiencias
+D84.9,Inmunodeficiencia no especificada
+D86,Sarcoidosis
+D86.0,Sarcoidosis del pulmon
+D86.9,Sarcoidosis no especificada
+D89,Otros trastornos que afectan al mecanismo de la inmunidad no clasificados en otra parte
+D89.9,Trastorno que afecta al mecanismo de la inmunidad no especificado
+E00,Sindrome congenito de deficiencia de yodo
+E00.9,Sindrome congenito de deficiencia de yodo no especificado
+E01,Trastornos tiroideos vinculados a deficiencia de yodo y afecciones relacionadas
+E01.0,Bocio difuso (endemico) por deficiencia de yodo
+E01.2,Bocio (endemico) por deficiencia de yodo no especificado
+E02,Hipotiroidismo subclinico por deficiencia de yodo
+E03,Otro hipotiroidismo
+E03.0,Hipotiroidismo congenito con bocio difuso
+E03.1,Hipotiroidismo congenito sin bocio
+E03.2,Hipotiroidismo debido a medicamentos y a otras sustancias exogenas
+E03.5,Coma mixedematoso
+E03.8,Otros hipotiroidismos especificados
+E03.9,Hipotiroidismo no especificado
+E04,Otro bocio no toxico
+E04.0,Bocio difuso no toxico
+E04.1,Nodulo tiroideo solitario no toxico
+E04.2,Bocio multinodular no toxico
+E04.9,Bocio no toxico no especificado
+E05,Tirotoxicosis [hipertiroidismo]
+E05.0,Tirotoxicosis con bocio difuso
+E05.1,Tirotoxicosis con nodulo solitario tiroideo toxico
+E05.2,Tirotoxicosis con bocio multinodular toxico
+E05.5,Crisis o tormenta tiroidea
+E05.9,Tirotoxicosis no especificada
+E06,Tiroiditis
+E06.0,Tiroiditis aguda
+E06.1,Tiroiditis subaguda
+E06.3,Tiroiditis autoinmune
+E06.9,Tiroiditis no especificada
+E07,Otros trastornos tiroideos
+E07.9,Trastorno de la glandula tiroides no especificado
+E10,Diabetes mellitus insulinodependiente
+E10.0,Diabetes mellitus insulinodependiente con coma
+E10.1,Diabetes mellitus insulinodependiente con cetoacidosis
+E10.2,Diabetes mellitus insulinodependiente con complicaciones renales
+E10.3,Diabetes mellitus insulinodependiente con complicaciones oftalmicas
+E10.4,Diabetes mellitus insulinodependiente con complicaciones neurologicas
+E10.5,Diabetes mellitus insulinodependiente con complicaciones circulatorias perifericas
+E10.6,Diabetes mellitus insulinodependiente con otras complicaciones especificadas
+E10.7,Diabetes mellitus insulinodependiente con complicaciones multiples
+E10.8,Diabetes mellitus insulinodependiente con complicaciones no especificadas
+E10.9,Diabetes mellitus insulinodependiente sin mencion de complicacion
+E11,Diabetes mellitus no insulinodependiente
+E11.0,Diabetes mellitus no insulinodependiente con coma
+E11.1,Diabetes mellitus no insulinodependiente con cetoacidosis
+E11.2,Diabetes mellitus no insulinodependiente con complicaciones renales
+E11.3,Diabetes mellitus no insulinodependiente con complicaciones oftalmicas
+E11.4,Diabetes mellitus no insulinodependiente con complicaciones neurologicas
+E11.5,Diabetes mellitus no insulinodependiente con complicaciones circulatorias perifericas
+E11.6,Diabetes mellitus no insulinodependiente con otras complicaciones especificadas
+E11.7,Diabetes mellitus no insulinodependiente con complicaciones multiples
+E11.8,Diabetes mellitus no insulinodependiente con complicaciones no especificadas
+E11.9,Diabetes mellitus no insulinodependiente sin mencion de complicacion
+E12,Diabetes mellitus asociada con desnutricion
+E12.9,Diabetes mellitus asociada con desnutricion sin mencion de complicacion
+E13,Otras diabetes mellitus especificadas
+E13.9,Otras diabetes mellitus especificadas sin mencion de complicacion
+E14,Diabetes mellitus no especificada
+E14.0,Diabetes mellitus no especificada con coma
+E14.9,Diabetes mellitus no especificada sin mencion de complicacion
+E15,Coma hipoglicemico no diabetico
+E16,Otros trastornos de la secrecion interna del pancreas
+E16.0,Hipoglicemia inducida por drogas sin coma
+E16.1,Otras hipoglicemias
+E16.2,Hipoglicemia no especificada
+E20,Hipoparatiroidismo
+E20.0,Hipoparatiroidismo idiopatico
+E20.9,Hipoparatiroidismo no especificado
+E21,Hiperparatiroidismo y otros trastornos de la glandula paratiroides
+E21.0,Hiperparatiroidismo primario
+E21.3,Hiperparatiroidismo no especificado
+E22,Hiperfuncion de la glandula hipofisis
+E22.0,Acromegalia y gigantismo hipofisario
+E22.1,Hiperprolactinemia
+E23,Hipofuncion y otros trastornos de la glandula hipofisis
+E23.0,Hipopituitarismo
+E23.2,Diabetes insipida
+E24,Sindrome de Cushing
+E24.0,Enfermedad de Cushing dependiente de la hipofisis
+E24.9,Sindrome de Cushing no especificado
+E25,Trastornos adrenogenitales
+E26,Hiperaldosteronismo
+E26.0,Hiperaldosteronismo primario
+E27,Otros trastornos de la glandula suprarrenal
+E27.1,Insuficiencia corticosuprarrenal primaria
+E27.2,Crisis addisoniana
+E27.4,Otras insuficiencias corticosuprarrenales y las no especificadas
+E27.5,Hiperfuncion de la medula suprarrenal
+E28,Disfuncion ovarica
+E28.0,Exceso de estrogenos
+E28.1,Exceso de androgenos
+E28.2,Sindrome de ovario poliquistico
+E28.3,Insuficiencia ovarica primaria
+E28.9,Disfuncion ovarica no especificada
+E29,Disfuncion testicular
+E29.1,Hipofuncion testicular
+E30,Trastornos de la pubertad no clasificados en otra parte
+E30.0,Pubertad retardada
+E30.1,Pubertad precoz
+E34,Otros trastornos endocrinos
+E34.3,Enanismo no clasificado en otra parte
+E34.9,Trastorno endocrino no especificado
+E40,Kwashiorkor
+E41,Marasmo nutricional
+E42,Kwashiorkor marasmatico
+E43,Desnutricion proteicocalorica severa no especificada
+E44,Desnutricion proteicocalorica de grado moderado y leve
+E44.0,Desnutricion proteicocalorica moderada
+E44.1,Desnutricion proteicocalorica leve
+E45,Retardo del desarrollo debido a desnutricion proteicocalorica
+E46,Desnutricion proteicocalorica no especificada
+E50,Deficiencia de vitamina A
+E50.9,Deficiencia de vitamina A sin otra especificacion
+E51,Deficiencia de tiamina
+E51.1,Beriberi
+E52,Deficiencia de niacina [pelagra]
+E53,Deficiencia de otras vitaminas del grupo B
+E54,Deficiencia de acido ascorbico
+E55,Deficiencia de vitamina D
+E55.0,Raquitismo activo
+E55.9,Deficiencia de vitamina D no especificada
+E56,Otras deficiencias de vitaminas
+E58,Deficiencia dietetica de calcio
+E59,Deficiencia dietetica de selenio
+E60,Deficiencia dietetica de zinc
+E61,Deficiencia de otros elementos nutricionales
+E61.1,Deficiencia de hierro
+E63,Otras deficiencias nutricionales
+E63.9,Deficiencia nutricional no especificada
+E64,Secuelas de la desnutricion y de otras deficiencias nutricionales
+E64.0,Secuelas de la desnutricion proteicocalorica
+E65,Adiposidad localizada
+E66,Obesidad
+E66.0,Obesidad debida a exceso de calorias
+E66.1,Obesidad inducida por drogas
+E66.2,Obesidad extrema con hipoventilacion alveolar
+E66.9,Obesidad no especificada
+E67,Otros tipos de hiperalimentacion
+E67.0,Hipervitaminosis A
+E68,Secuelas de hiperalimentacion
+E70,Trastornos del metabolismo de los aminoacidos aromaticos
+E70.0,Fenilcetonuria clasica
+E71,Trastornos del metabolismo de los aminoacidos de cadena ramificada y de los acidos grasos
+E72,Otros trastornos del metabolismo de los aminoacidos
+E73,Intolerancia a la lactosa
+E73.0,Deficiencia congenita de lactasa
+E73.9,Intolerancia a la lactosa no especificada
+E74,Otros trastornos del metabolismo de los carbohidratos
+E74.0,Enfermedad del almacenamiento de glucogeno
+E75,Trastornos del metabolismo de los esfingolipidos y otros trastornos por almacenamiento de lipidos
+E76,Trastornos del metabolismo de los glucosaminoglicanos
+E77,Trastornos del metabolismo de las glucoproteinas
+E78,Trastornos del metabolismo de las lipoproteinas y otras lipidemias
+E78.0,Hipercolesterolemia pura
+E78.1,Hipergliceridemia pura
+E78.2,Hiperlipidemia mixta
+E78.4,Otras hiperlipidemias
+E78.5,Hiperlipidemia no especificada
+E78.9,Trastorno del metabolismo de las lipoproteinas no especificado
+E79,Trastornos del metabolismo de las purinas y de las pirimidinas
+E79.0,Hiperuricemia sin signos de artritis inflamatoria y enfermedad tofacea
+E80,Trastornos del metabolismo de las porfirinas y de la bilirrubina
+E83,Trastornos del metabolismo de los minerales
+E83.0,Trastornos del metabolismo del cobre
+E83.1,Trastornos del metabolismo del hierro
+E83.3,Trastornos del metabolismo del fosforo
+E83.5,Trastornos del metabolismo del calcio
+E84,Fibrosis quistica
+E84.0,Fibrosis quistica con manifestaciones pulmonares
+E84.9,Fibrosis quistica sin otra especificacion
+E85,Amiloidosis
+E86,Deplecion del volumen
+E87,Otros trastornos de los liquidos de los electrolitos y del equilibrio acido-basico
+E87.0,Hiperosmolalidad e hipernatremia
+E87.1,Hiposmolalidad e hiponatremia
+E87.2,Acidosis
+E87.3,Alcalosis
+E87.4,Trastorno mixto del equilibrio acido-basico
+E87.5,Hiperpotasemia
+E87.6,Hipopotasemia
+E87.8,Otros trastornos del equilibrio electrolitico no clasificados en otra parte
+E88,Otros trastornos metabolicos
+E88.0,Trastornos del metabolismo de las proteinas plasmaticas no clasificados en otra parte
+E88.9,Trastorno metabolico no especificado
+E89,Trastornos endocrinos y metabolicos consecutivos a procedimientos no clasificados en otra parte
+E89.0,Hipotiroidismo consecutivo a procedimientos
+E90,Trastornos nutricionales y metabolicos en enfermedades clasificadas en otra parte
+F00,Demencia en la enfermedad de Alzheimer
+F00.0,Demencia en la enfermedad de Alzheimer de comienzo temprano
+F00.1,Demencia en la enfermedad de Alzheimer de comienzo tardio
+F00.9,Demencia en la enfermedad de Alzheimer no especificada
+F01,Demencia vascular
+F01.0,Demencia vascular de comienzo agudo
+F01.1,Demencia vascular por infartos multiples
+F01.9,Demencia vascular no especificada
+F02,Demencia en otras enfermedades clasificadas en otra parte
+F03,Demencia no especificada
+F04,Sindrome amnesico organico no inducido por alcohol ni por otras sustancias psicoactivas
+F05,Delirio no inducido por alcohol ni por otras sustancias psicoactivas
+F05.0,Delirio no superpuesto a demencia asi descrito
+F05.1,Delirio superpuesto a demencia
+F05.9,Delirio no especificado
+F06,Otros trastornos mentales debidos a lesion y disfuncion cerebral y a enfermedad fisica
+F06.0,Alucinosis organica
+F06.2,Trastorno delirante (esquizofreniforme) organico
+F06.3,Trastornos del humor [afectivos] organicos
+F06.4,Trastorno de ansiedad organico
+F06.7,Trastorno cognoscitivo leve
+F07,Trastornos de la personalidad y del comportamiento debidos a enfermedad lesion y disfuncion cerebral
+F07.0,Trastorno de la personalidad organico
+F09,Trastorno mental organico o sintomatico no especificado
+F10,Trastornos mentales y del comportamiento debidos al uso de alcohol
+F10.0,Trastornos mentales y del comportamiento debidos al uso de alcohol intoxicacion aguda
+F10.1,Trastornos mentales y del comportamiento debidos al uso de alcohol uso nocivo
+F10.2,Trastornos mentales y del comportamiento debidos al uso de alcohol sindrome de dependencia
+F10.3,Trastornos mentales y del comportamiento debidos al uso de alcohol estado de abstinencia
+F10.4,Trastornos mentales y del comportamiento debidos al uso de alcohol estado de abstinencia con delirio
+F10.5,Trastornos mentales y del comportamiento debidos al uso de alcohol trastorno psicotico
+F11,Trastornos mentales y del comportamiento debidos al uso de opiaceos
+F11.0,Trastornos mentales y del comportamiento debidos al uso de opiaceos intoxicacion aguda
+F11.2,Trastornos mentales y del comportamiento debidos al uso de opiaceos sindrome de dependencia
+F12,Trastornos mentales y del comportamiento debidos al uso de cannabinoides
+F12.0,Trastornos mentales y del comportamiento debidos al uso de cannabinoides intoxicacion aguda
+F12.1,Trastornos mentales y del comportamiento debidos al uso de cannabinoides uso nocivo
+F12.2,Trastornos mentales y del comportamiento debidos al uso de cannabinoides sindrome de dependencia
+F13,Trastornos mentales y del comportamiento debidos al uso de sedantes o hipnoticos
+F13.2,Trastornos mentales y del comportamiento debidos al uso de sedantes o hipnoticos sindrome de dependencia
+F14,Trastornos mentales y del comportamiento debidos al uso de cocaina
+F14.0,Trastornos mentales y del comportamiento debidos al uso de cocaina intoxicacion aguda
+F14.1,Trastornos mentales y del comportamiento debidos al uso de cocaina uso nocivo
+F14.2,Trastornos mentales y del comportamiento debidos al uso de cocaina sindrome de dependencia
+F15,Trastornos mentales y del comportamiento debidos al uso de otros estimulantes incluida la cafeina
+F15.2,Trastornos mentales y del comportamiento debidos al uso de otros estimulantes sindrome de dependencia
+F17,Trastornos mentales y del comportamiento debidos al uso de tabaco
+F17.1,Trastornos mentales y del comportamiento debidos al uso de tabaco uso nocivo
+F17.2,Trastornos mentales y del comportamiento debidos al uso de tabaco sindrome de dependencia
+F19,Trastornos mentales y del comportamiento debidos al uso de multiples drogas y al uso de otras sustancias psicoactivas
+F19.0,Trastornos mentales y del comportamiento debidos al uso de multiples drogas intoxicacion aguda
+F19.2,Trastornos mentales y del comportamiento debidos al uso de multiples drogas sindrome de dependencia
+F20,Esquizofrenia
+F20.0,Esquizofrenia paranoide
+F20.1,Esquizofrenia hebefrenica
+F20.2,Esquizofrenia catatonica
+F20.3,Esquizofrenia indiferenciada
+F20.5,Esquizofrenia residual
+F20.9,Esquizofrenia no especificada
+F21,Trastorno esquizotipico
+F22,Trastornos delirantes persistentes
+F22.0,Trastorno delirante
+F23,Trastornos psicoticos agudos y transitorios
+F23.0,Trastorno psicotico agudo polimorfo sin sintomas de esquizofrenia
+F23.1,Trastorno psicotico agudo polimorfo con sintomas de esquizofrenia
+F23.9,Trastorno psicotico agudo y transitorio no especificado
+F25,Trastornos esquizoafectivos
+F25.0,Trastorno esquizoafectivo de tipo maniaco
+F25.1,Trastorno esquizoafectivo de tipo depresivo
+F25.9,Trastorno esquizoafectivo no especificado
+F28,Otros trastornos psicoticos no organicos
+F29,Psicosis de origen no organico no especificada
+F30,Episodio maniaco
+F30.0,Hipomania
+F30.1,Mania sin sintomas psicoticos
+F30.2,Mania con sintomas psicoticos
+F30.9,Episodio maniaco no especificado
+F31,Trastorno afectivo bipolar
+F31.0,Trastorno afectivo bipolar episodio presente hipomaniaco
+F31.1,Trastorno afectivo bipolar episodio presente maniaco sin sintomas psicoticos
+F31.2,Trastorno afectivo bipolar episodio presente maniaco con sintomas psicoticos
+F31.3,Trastorno afectivo bipolar episodio presente depresivo leve o moderado
+F31.4,Trastorno afectivo bipolar episodio presente depresivo grave sin sintomas psicoticos
+F31.5,Trastorno afectivo bipolar episodio presente depresivo grave con sintomas psicoticos
+F31.6,Trastorno afectivo bipolar episodio presente mixto
+F31.7,Trastorno afectivo bipolar actualmente en remision
+F31.9,Trastorno afectivo bipolar no especificado
+F32,Episodio depresivo
+F32.0,Episodio depresivo leve
+F32.1,Episodio depresivo moderado
+F32.2,Episodio depresivo grave sin sintomas psicoticos
+F32.3,Episodio depresivo grave con sintomas psicoticos
+F32.8,Otros episodios depresivos
+F32.9,Episodio depresivo no especificado
+F33,Trastorno depresivo recurrente
+F33.0,Trastorno depresivo recurrente episodio actual leve
+F33.1,Trastorno depresivo recurrente episodio actual moderado
+F33.2,Trastorno depresivo recurrente episodio actual grave sin sintomas psicoticos
+F33.3,Trastorno depresivo recurrente episodio actual grave con sintomas psicoticos
+F33.4,Trastorno depresivo recurrente actualmente en remision
+F33.9,Trastorno depresivo recurrente sin otra especificacion
+F34,Trastornos del humor [afectivos] persistentes
+F34.0,Ciclotimia
+F34.1,Distimia
+F38,Otros trastornos del humor [afectivos]
+F39,Trastorno del humor [afectivo] no especificado
+F40,Trastornos de ansiedad fobica
+F40.0,Agorafobia
+F40.1,Fobias sociales
+F40.2,Fobias especificas [aisladas]
+F40.9,Trastorno de ansiedad fobica no especificado
+F41,Otros trastornos de ansiedad
+F41.0,Trastorno de panico [ansiedad paroxistica episodica]
+F41.1,Trastorno de ansiedad generalizada
+F41.2,Trastorno mixto de ansiedad y depresion
+F41.3,Otros trastornos de ansiedad mixtos
+F41.8,Otros trastornos de ansiedad especificados
+F41.9,Trastorno de ansiedad no especificado
+F42,Trastorno obsesivo-compulsivo
+F42.0,Predominio de pensamientos o rumiaciones obsesivas
+F42.1,Predominio de actos compulsivos [rituales obsesivos]
+F42.2,Actos e ideas obsesivas mixtos
+F42.9,Trastorno obsesivo-compulsivo no especificado
+F43,Reaccion al estres grave y trastornos de adaptacion
+F43.0,Reaccion al estres agudo
+F43.1,Trastorno de estres postraumatico
+F43.2,Trastornos de adaptacion
+F43.8,Otras reacciones al estres grave
+F43.9,Reaccion al estres grave no especificada
+F44,Trastornos disociativos [de conversion]
+F44.0,Amnesia disociativa
+F44.9,Trastorno disociativo [de conversion] no especificado
+F45,Trastornos somatomorfos
+F45.0,Trastorno de somatizacion
+F45.1,Trastorno somatomorfo indiferenciado
+F45.2,Trastorno hipocondriaco
+F45.3,Disfuncion autonomica somatomorfa
+F45.4,Trastorno de dolor persistente somatomorfo
+F45.9,Trastorno somatomorfo no especificado
+F48,Otros trastornos neuroticos
+F48.0,Neurastenia
+F48.1,Sindrome de despersonalizacion-desrealizacion
+F48.9,Trastorno neurotico no especificado
+F50,Trastornos de la ingestión de alimentos
+F50.0,Anorexia nerviosa
+F50.1,Anorexia nerviosa atipica
+F50.2,Bulimia nerviosa
+F50.9,Trastorno de la ingestion de alimentos no especificado
+F51,Trastornos no organicos del sueno
+F51.0,Insomnio no organico
+F51.1,Hipersomnio no organico
+F51.9,Trastorno no organico del sueno no especificado
+F52,Disfuncion sexual no ocasionada por trastorno ni enfermedad organicos
+F52.0,Ausencia o perdida del deseo sexual
+F52.2,Falla de la respuesta genital
+F52.4,Eyaculacion precoz
+F52.9,Disfuncion sexual no ocasionada por trastorno ni enfermedad organicos no especificada
+F53,Trastornos mentales y del comportamiento asociados con el puerperio no clasificados en otra parte
+F53.0,Trastornos mentales y del comportamiento leves asociados con el puerperio no clasificados en otra parte
+F53.1,Trastornos mentales y del comportamiento graves asociados con el puerperio no clasificados en otra parte
+F54,Factores psicologicos y del comportamiento asociados con trastornos o enfermedades clasificados en otra parte
+F55,Abuso de sustancias que no producen dependencia
+F59,Sindromes del comportamiento asociados con alteraciones fisiologicas y factores fisicos no especificados
+F60,Trastornos especificos de la personalidad
+F60.0,Trastorno paranoide de la personalidad
+F60.1,Trastorno esquizoide de la personalidad
+F60.2,Trastorno disocial de la personalidad
+F60.3,Trastorno de inestabilidad emocional de la personalidad
+F60.4,Trastorno histrionico de la personalidad
+F60.5,Trastorno anancástico de la personalidad
+F60.6,Trastorno de la personalidad ansiosa (con conducta de evitacion)
+F60.7,Trastorno de la personalidad dependiente
+F60.8,Otros trastornos especificos de la personalidad
+F60.9,Trastorno de la personalidad no especificado
+F63,Trastornos de los habitos y de los impulsos
+F63.0,Juego patologico
+F63.1,Piromania
+F63.2,Hurto patologico [cleptomania]
+F63.9,Trastorno de los habitos y de los impulsos no especificado
+F64,Trastornos de la identidad de genero
+F64.0,Transexualismo
+F65,Trastornos de la preferencia sexual
+F66,Trastornos psicologicos y del comportamiento asociados con el desarrollo y con la orientacion sexuales
+F70,Retraso mental leve
+F71,Retraso mental moderado
+F72,Retraso mental grave
+F73,Retraso mental profundo
+F79,Retraso mental no especificado
+F80,Trastornos especificos del desarrollo del habla y del lenguaje
+F80.0,Trastorno especifico de la pronunciacion
+F80.1,Trastorno del lenguaje expresivo
+F80.2,Trastorno de la comprension del lenguaje
+F80.9,Trastorno del desarrollo del habla y del lenguaje no especificado
+F81,Trastornos especificos del desarrollo de las habilidades escolares
+F81.0,Trastorno especifico de la lectura
+F81.1,Trastorno especifico de la ortografia
+F81.2,Trastorno especifico de las habilidades aritmeticas
+F81.3,Trastorno mixto de las habilidades escolares
+F81.9,Trastorno del desarrollo de las habilidades escolares no especificado
+F82,Trastorno especifico del desarrollo de la funcion motriz
+F83,Trastornos especificos mixtos del desarrollo
+F84,Trastornos generalizados del desarrollo
+F84.0,Autismo en la ninez
+F84.1,Autismo atipico
+F84.2,Sindrome de Rett
+F84.3,Otro trastorno desintegrativo de la infancia
+F84.5,Sindrome de Asperger
+F84.9,Trastorno generalizado del desarrollo no especificado
+F90,Trastornos hipercineticos
+F90.0,Perturbacion de la actividad y de la atencion
+F90.1,Trastorno hipercinetico de la conducta
+F90.9,Trastorno hipercinetico no especificado
+F91,Trastornos de la conducta
+F91.0,Trastorno de la conducta limitado al contexto familiar
+F91.1,Trastorno de la conducta insocializado
+F91.2,Trastorno de la conducta socializado
+F91.3,Trastorno desafiante y oposicionista
+F91.9,Trastorno de la conducta no especificado
+F92,Trastornos mixtos de la conducta y de las emociones
+F93,Trastornos emocionales de comienzo habitual en la infancia
+F93.0,Trastorno de ansiedad de separacion en la infancia
+F93.1,Trastorno de ansiedad fobica en la infancia
+F93.2,Trastorno de ansiedad social en la infancia
+F93.8,Otros trastornos emocionales en la infancia
+F93.9,Trastorno emocional en la infancia no especificado
+F94,Trastornos del comportamiento social de comienzo habitual en la infancia y en la adolescencia
+F95,Trastornos por tics
+F95.0,Trastorno por tic transitorio
+F95.1,Trastorno por tic motor o vocal cronico
+F95.2,Trastorno por tics multiples motores y vocales combinados [sindrome de Gilles de la Tourette]
+F98,Otros trastornos del comportamiento y de las emociones de comienzo habitual en la infancia y en la adolescencia
+F98.0,Enuresis no organica
+F98.1,Encopresis no organica
+F98.2,Trastorno de la ingestion alimentaria en la infancia y la ninez
+F98.5,Tartamudez [espasmofemia]
+F99,Trastorno mental no especificado

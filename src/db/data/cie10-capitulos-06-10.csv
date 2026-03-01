@@ -1,0 +1,890 @@
+codigo,nombre
+G00,Meningitis bacteriana no clasificada en otra parte
+G00.0,Meningitis por Haemophilus
+G00.1,Meningitis neumococica
+G00.2,Meningitis estreptococica
+G00.3,Meningitis estafilococica
+G00.9,Meningitis bacteriana no especificada
+G01,Meningitis en enfermedades bacterianas clasificadas en otra parte
+G02,Meningitis en otras enfermedades infecciosas y parasitarias clasificadas en otra parte
+G03,Meningitis debida a otras causas y a las no especificadas
+G03.0,Meningitis apiogena
+G03.9,Meningitis no especificada
+G04,Encefalitis mielitis y encefalomielitis
+G04.0,Encefalitis aguda diseminada
+G04.9,Encefalitis mielitis y encefalomielitis no especificadas
+G05,Encefalitis mielitis y encefalomielitis en enfermedades clasificadas en otra parte
+G06,Absceso y granuloma intracraneal e intrarraquideo
+G06.0,Absceso y granuloma intracraneales
+G06.1,Absceso y granuloma intrarraquideos
+G06.2,Absceso extradural y subdural no especificado
+G09,Secuelas de enfermedades inflamatorias del sistema nervioso central
+G10,Enfermedad de Huntington
+G11,Ataxia hereditaria
+G11.4,Paraplejia espastica hereditaria
+G12,Atrofia muscular espinal y sindromes afines
+G12.2,Enfermedad de la neurona motora
+G20,Enfermedad de Parkinson
+G21,Parkinsonismo secundario
+G21.0,Sindrome neuroleptico maligno
+G23,Otras enfermedades degenerativas de los ganglios basales
+G24,Distonia
+G24.0,Distonia inducida por drogas
+G24.9,Distonia no especificada
+G25,Otros trastornos extrapiramidales y del movimiento
+G25.0,Temblor esencial
+G25.3,Mioclonia
+G25.5,Otros tipos de corea
+G25.8,Otros trastornos extrapiramidales y del movimiento especificados
+G25.9,Trastorno extrapiramidal y del movimiento no especificado
+G30,Enfermedad de Alzheimer
+G30.0,Enfermedad de Alzheimer de comienzo temprano
+G30.1,Enfermedad de Alzheimer de comienzo tardio
+G30.9,Enfermedad de Alzheimer no especificada
+G31,Otras enfermedades degenerativas del sistema nervioso no clasificadas en otra parte
+G31.0,Atrofia cerebral circunscrita
+G31.2,Degeneracion del sistema nervioso debida al alcohol
+G35,Esclerosis multiple
+G36,Otras desmielinizaciones agudas diseminadas
+G37,Otras enfermedades desmielinizantes del sistema nervioso central
+G40,Epilepsia
+G40.0,Epilepsia y sindromes epilepticos idiopaticos relacionados con localizaciones (focales) (parciales) con ataques de inicio parcial
+G40.1,Epilepsia y sindromes epilepticos sintomaticos relacionados con localizaciones (focales) (parciales) con ataques parciales simples
+G40.2,Epilepsia y sindromes epilepticos sintomaticos relacionados con localizaciones (focales) (parciales) con ataques parciales complejos
+G40.3,Epilepsia y sindromes epilepticos idiopaticos generalizados
+G40.4,Otras epilepsias y sindromes epilepticos generalizados
+G40.5,Sindromes epilepticos especiales
+G40.6,Ataques de gran mal no especificados (con o sin pequeno mal)
+G40.7,Pequeno mal no especificado sin ataques de gran mal
+G40.8,Otras epilepsias
+G40.9,Epilepsia tipo no especificado
+G41,Estado de mal epileptico
+G41.0,Estado de gran mal epileptico
+G41.1,Estado de pequeno mal epileptico
+G41.2,Estado de mal epileptico parcial complejo
+G41.9,Estado de mal epileptico de tipo no especificado
+G43,Migrana
+G43.0,Migrana sin aura [migrana comun]
+G43.1,Migrana con aura [migrana clasica]
+G43.2,Estado miganoso
+G43.3,Migrana complicada
+G43.8,Otras migranas
+G43.9,Migrana no especificada
+G44,Otros sindromes de cefalea
+G44.0,Sindrome de cefalea en racimos
+G44.1,Cefalea vascular no clasificada en otra parte
+G44.2,Cefalea debida a tension
+G44.3,Cefalea postraumatica cronica
+G44.4,Cefalea inducida por drogas no clasificada en otra parte
+G44.8,Otros sindromes de cefalea especificados
+G45,Ataques de isquemia cerebral transitoria y sindromes afines
+G45.0,Sindrome vertebro-basilar
+G45.1,Sindrome de la arteria carotida (hemisferico)
+G45.9,Ataque de isquemia cerebral transitoria sin otra especificacion
+G46,Sindromes vasculares cerebrales en enfermedades cerebrovasculares
+G47,Trastornos del sueno
+G47.0,Trastornos del inicio y del mantenimiento del sueno [insomnios]
+G47.1,Trastornos de somnolencia excesiva [hipersomnios]
+G47.2,Trastornos del ciclo sueno-vigilia
+G47.3,Apnea del sueno
+G47.4,Narcolepsia y cataplexia
+G47.8,Otros trastornos del sueno
+G47.9,Trastorno del sueno no especificado
+G50,Trastornos del nervio trigemino
+G50.0,Neuralgia del trigemino
+G50.9,Trastorno del nervio trigemino no especificado
+G51,Trastornos del nervio facial
+G51.0,Paralisis de Bell
+G51.9,Trastorno del nervio facial no especificado
+G52,Trastornos de otros nervios craneales
+G53,Trastornos de los nervios craneales en enfermedades clasificadas en otra parte
+G54,Trastornos de las raices y de los plexos nerviosos
+G54.0,Trastornos del plexo braquial
+G54.1,Trastornos del plexo lumbosacro
+G54.4,Trastornos de las raices lumbosacras no clasificados en otra parte
+G55,Compresiones de las raices y de los plexos nerviosos en enfermedades clasificadas en otra parte
+G56,Mononeuropatias del miembro superior
+G56.0,Sindrome del tunel carpiano
+G56.1,Otras lesiones del nervio mediano
+G56.2,Lesion del nervio cubital
+G56.3,Lesion del nervio radial
+G56.9,Mononeuropatia del miembro superior sin otra especificacion
+G57,Mononeuropatias del miembro inferior
+G57.0,Lesion del nervio ciatico
+G57.1,Meralgia parestesica
+G57.5,Sindrome del tunel del tarso
+G57.9,Mononeuropatia del miembro inferior sin otra especificacion
+G58,Otras mononeuropatias
+G58.0,Neuropatia intercostal
+G58.9,Mononeuropatia no especificada
+G60,Neuropatia hereditaria e idiopatica
+G60.0,Neuropatia hereditaria motora y sensorial
+G60.9,Neuropatia hereditaria e idiopatica no especificada
+G61,Polineuropatia inflamatoria
+G61.0,Sindrome de Guillain-Barre
+G61.1,Neuropatia serica
+G62,Otras polineuropatias
+G62.0,Polineuropatia inducida por drogas
+G62.1,Polineuropatia alcoholica
+G62.9,Polineuropatia no especificada
+G63,Polineuropatia en enfermedades clasificadas en otra parte
+G63.2,Polineuropatia diabetica
+G64,Otros trastornos del sistema nervioso periferico
+G70,Miastenia gravis y otros trastornos neuromusculares
+G70.0,Miastenia gravis
+G70.9,Trastorno neuromuscular no especificado
+G71,Trastornos primarios de los musculos
+G71.0,Distrofia muscular
+G71.1,Trastornos miotonicos
+G71.2,Miopatias congenitas
+G71.3,Miopatia mitocondrial no clasificada en otra parte
+G72,Otras miopatias
+G72.0,Miopatia inducida por drogas
+G72.9,Miopatia no especificada
+G73,Trastornos del area neuromuscular y de los musculos en enfermedades clasificadas en otra parte
+G80,Paralisis cerebral infantil
+G80.0,Paralisis cerebral espastica
+G80.1,Diplejia espastica
+G80.3,Paralisis cerebral discinetica
+G80.9,Paralisis cerebral infantil sin otra especificacion
+G81,Hemiplejia
+G81.0,Hemiplejia flaccida
+G81.1,Hemiplejia espastica
+G81.9,Hemiplejia no especificada
+G82,Paraplejia y cuadriplejia
+G82.0,Paraplejia flaccida
+G82.1,Paraplejia espastica
+G82.2,Paraplejia no especificada
+G82.3,Cuadriplejia flaccida
+G82.4,Cuadriplejia espastica
+G82.5,Cuadriplejia no especificada
+G83,Otros sindromes paraliticos
+G83.0,Diplejia de los miembros superiores
+G83.1,Monoplejia del miembro inferior
+G83.2,Monoplejia del miembro superior
+G83.4,Sindrome de la cola de caballo
+G83.9,Sindrome paralitico no especificado
+G90,Trastornos del sistema nervioso autonomo
+G90.0,Neuropatia autonoma periferica idiopatica
+G90.9,Trastorno del sistema nervioso autonomo no especificado
+G91,Hidrocefalo
+G91.0,Hidrocefalo comunicante
+G91.1,Hidrocefalo obstructivo
+G91.2,Hidrocefalo de presion normal
+G91.9,Hidrocefalo no especificado
+G93,Otros trastornos del encefalo
+G93.0,Quistes cerebrales
+G93.1,Lesion cerebral anoxica no clasificada en otra parte
+G93.2,Hipertension intracraneal benigna
+G93.3,Sindrome de fatiga postviral
+G93.4,Encefalopatia no especificada
+G93.5,Compresion del encefalo
+G93.6,Edema cerebral
+G93.8,Otros trastornos especificados del encefalo
+G93.9,Trastorno del encefalo no especificado
+G95,Otras enfermedades de la medula espinal
+G95.0,Siringomielia y siringobulbia
+G95.1,Mielopatias vasculares
+G95.9,Enfermedad de la medula espinal no especificada
+G96,Otros trastornos del sistema nervioso central
+G96.0,Perdida de liquido cefalorraquideo
+G97,Trastornos del sistema nervioso consecutivos a procedimientos no clasificados en otra parte
+G97.0,Perdida de liquido cefalorraquideo por puncion espinal
+G99,Otros trastornos del sistema nervioso en enfermedades clasificadas en otra parte
+H00,Orzuelo y calacio
+H00.0,Orzuelo y otras inflamaciones profundas del parpado
+H00.1,Calacio
+H01,Otras inflamaciones del parpado
+H01.0,Blefaritis
+H02,Otros trastornos de los parpados
+H02.0,Entropion y triquiasis del parpado
+H02.1,Ectropion del parpado
+H02.3,Blefarocalasia
+H02.4,Ptosis del parpado
+H04,Trastornos del aparato lagrimal
+H04.0,Dacrioadenitis
+H04.1,Otros trastornos de la glandula lagrimal
+H04.2,Epifora
+H04.3,Inflamacion aguda y la no especificada de las vias lagrimales
+H04.4,Inflamacion cronica de las vias lagrimales
+H04.5,Estenosis e insuficiencia de las vias lagrimales
+H05,Trastornos de la orbita
+H05.0,Inflamacion aguda de la orbita
+H05.2,Afecciones exoftalmicas
+H10,Conjuntivitis
+H10.0,Conjuntivitis mucopurulenta
+H10.1,Conjuntivitis atopica aguda
+H10.2,Otras conjuntivitis agudas
+H10.3,Conjuntivitis aguda no especificada
+H10.4,Conjuntivitis cronica
+H10.5,Blefaroconjuntivitis
+H10.9,Conjuntivitis no especificada
+H11,Otros trastornos de la conjuntiva
+H11.0,Pterigion
+H11.1,Degeneraciones y depositos de la conjuntiva
+H11.3,Hemorragia conjuntival
+H11.4,Otros trastornos vasculares y quistes de la conjuntiva
+H15,Trastornos de la esclerotica
+H15.0,Escleritis
+H15.1,Episcleritis
+H16,Queratitis
+H16.0,Ulcera de la cornea
+H16.1,Otras queratitis superficiales sin conjuntivitis
+H16.2,Queratoconjuntivitis
+H16.9,Queratitis no especificada
+H17,Opacidades y cicatrices corneales
+H17.0,Leucoma adherente
+H17.1,Otras opacidades centrales de la cornea
+H18,Otros trastornos de la cornea
+H18.0,Pigmentaciones y depositos en la cornea
+H18.1,Queratopatia vesicular (ampollosa)
+H18.4,Degeneracion de la cornea
+H18.5,Distrofias hereditarias de la cornea
+H18.6,Queratocono
+H20,Iridociclitis
+H20.0,Iridociclitis aguda y subaguda
+H20.1,Iridociclitis cronica
+H20.9,Iridociclitis no especificada
+H21,Otros trastornos del iris y del cuerpo ciliar
+H22,Trastornos del iris y del cuerpo ciliar en enfermedades clasificadas en otra parte
+H25,Catarata senil
+H25.0,Catarata senil incipiente
+H25.1,Catarata senil nuclear
+H25.2,Catarata senil tipo Morgagni
+H25.8,Otras cataratas seniles
+H25.9,Catarata senil no especificada
+H26,Otras cataratas
+H26.0,Catarata infantil juvenil y presenil
+H26.1,Catarata traumatica
+H26.2,Catarata complicada
+H26.3,Catarata inducida por drogas
+H26.4,Catarata residual
+H26.9,Catarata no especificada
+H27,Otros trastornos del cristalino
+H27.0,Afaquia
+H28,Cataratas y otros trastornos del cristalino en enfermedades clasificadas en otra parte
+H30,Inflamacion coriorretiniana
+H30.0,Inflamacion coriorretiniana focal
+H30.9,Inflamacion coriorretiniana no especificada
+H31,Otros trastornos de la coroides
+H33,Desprendimiento y desgarro de la retina
+H33.0,Desprendimiento de la retina con desgarro
+H33.2,Desprendimiento seroso de la retina
+H33.4,Desgarros de la retina sin desprendimiento
+H34,Oclusion vascular de la retina
+H34.0,Oclusion arterial transitoria de la retina
+H34.1,Oclusion de la arteria central de la retina
+H34.2,Otras oclusiones de la arteria retiniana
+H34.8,Otras oclusiones vasculares retinianas
+H35,Otros trastornos de la retina
+H35.0,Retinopatias del fondo y cambios vasculares retinianos
+H35.1,Retinopatia de la prematuridad
+H35.2,Otras retinopatias proliferativas
+H35.3,Degeneracion de la macula y del polo posterior
+H35.4,Degeneracion periferica de la retina
+H35.5,Distrofias hereditarias de la retina
+H35.6,Hemorragia retiniana
+H35.8,Otros trastornos especificados de la retina
+H36,Trastornos de la retina en enfermedades clasificadas en otra parte
+H36.0,Retinopatia diabetica
+H40,Glaucoma
+H40.0,Sospecha de glaucoma
+H40.1,Glaucoma primario de angulo abierto
+H40.2,Glaucoma primario de angulo cerrado
+H40.3,Glaucoma secundario a traumatismo ocular
+H40.4,Glaucoma secundario a inflamacion ocular
+H40.5,Glaucoma secundario a otros trastornos del ojo
+H40.6,Glaucoma secundario a drogas
+H40.8,Otros glaucomas
+H40.9,Glaucoma no especificado
+H42,Glaucoma en enfermedades clasificadas en otra parte
+H43,Trastornos del cuerpo vitreo
+H43.1,Hemorragia del vitreo
+H43.3,Otras opacidades del vitreo
+H44,Trastornos del globo ocular
+H44.0,Endoftalmitis purulenta
+H44.1,Otras endoftalmitis
+H46,Neuritis optica
+H47,Otros trastornos del nervio optico [II par] y de las vias opticas
+H47.0,Trastornos del nervio optico no clasificados en otra parte
+H47.1,Edema de papila no especificado
+H47.2,Atrofia optica
+H49,Estrabismo paralitico
+H49.0,Paralisis del nervio motor ocular comun [III par]
+H49.1,Paralisis del nervio patetico [IV par]
+H49.2,Paralisis del nervio motor ocular externo [VI par]
+H50,Otros estrabismos
+H50.0,Estrabismo convergente concomitante
+H50.1,Estrabismo divergente concomitante
+H50.3,Heterotropia intermitente
+H50.9,Estrabismo no especificado
+H51,Otros trastornos de los movimientos binoculares
+H52,Trastornos de la acomodacion y de la refraccion
+H52.0,Hipermetropia
+H52.1,Miopia
+H52.2,Astigmatismo
+H52.3,Anisometropia y aniseiconia
+H52.4,Presbicia
+H52.5,Trastornos de la acomodacion
+H52.6,Otros trastornos de la refraccion
+H52.7,Trastorno de la refraccion no especificado
+H53,Alteraciones de la vision
+H53.0,Ambliopia ex anopsia
+H53.1,Alteraciones visuales subjetivas
+H53.2,Diplopia
+H53.4,Defectos del campo visual
+H53.5,Deficiencias de la vision cromatica
+H53.6,Ceguera nocturna
+H53.8,Otras alteraciones visuales
+H53.9,Alteracion visual no especificada
+H54,Ceguera y disminucion de la agudeza visual
+H54.0,Ceguera binocular
+H54.1,Ceguera de un ojo disminucion de la agudeza visual del otro
+H54.2,Disminucion de la agudeza visual binocular
+H54.3,Disminucion indeterminada de la agudeza visual de ambos ojos
+H54.4,Ceguera de un ojo
+H54.5,Disminucion de la agudeza visual de un ojo
+H54.7,Disminucion de la agudeza visual no especificada
+H57,Otros trastornos del ojo y sus anexos
+H57.0,Anomalias de la funcion pupilar
+H57.1,Dolor ocular
+H58,Otros trastornos del ojo y sus anexos en enfermedades clasificadas en otra parte
+H59,Trastornos del ojo y sus anexos consecutivos a procedimientos no clasificados en otra parte
+H60,Otitis externa
+H60.0,Absceso del oido externo
+H60.1,Celulitis del oido externo
+H60.3,Otras otitis externas infecciosas
+H60.5,Otitis externa aguda no infecciosa
+H60.9,Otitis externa no especificada
+H61,Otros trastornos del oido externo
+H61.0,Pericondritis del oido externo
+H61.2,Cerumen impactado
+H65,Otitis media no supurativa
+H65.0,Otitis media aguda serosa
+H65.1,Otras otitis medias agudas no supurativas
+H65.2,Otitis media serosa cronica
+H65.3,Otitis media mucosa cronica
+H65.4,Otras otitis medias cronicas no supurativas
+H65.9,Otitis media no supurativa sin otra especificacion
+H66,Otitis media supurativa y la no especificada
+H66.0,Otitis media supurativa aguda
+H66.1,Otitis media tubotimpanica supurativa cronica
+H66.2,Otitis media atico-antral supurativa cronica
+H66.3,Otras otitis medias supurativas cronicas
+H66.4,Otitis media supurativa sin otra especificacion
+H66.9,Otitis media no especificada
+H67,Otitis media en enfermedades clasificadas en otra parte
+H68,Inflamacion y obstruccion de la trompa de Eustaquio
+H69,Otros trastornos de la trompa de Eustaquio
+H70,Mastoiditis y afecciones relacionadas
+H70.0,Mastoiditis aguda
+H70.1,Mastoiditis cronica
+H71,Colesteatoma del oido medio
+H72,Perforacion de la membrana timpanica
+H72.0,Perforacion central de la membrana del timpano
+H72.1,Perforacion atica de la membrana del timpano
+H72.9,Perforacion de la membrana del timpano sin otra especificacion
+H73,Otros trastornos de la membrana timpanica
+H74,Otros trastornos del oido medio y de la apofisis mastoides
+H74.0,Timpanosclerosis
+H74.1,Enfermedad adhesiva del oido medio
+H74.2,Discontinuidad y dislocacion de los huesecillos del oido
+H74.3,Otras anormalidades adquiridas de los huesecillos del oido
+H80,Otosclerosis
+H80.0,Otosclerosis que afecta la ventana oval no obliterante
+H80.9,Otosclerosis no especificada
+H81,Trastornos de la funcion vestibular
+H81.0,Enfermedad de Meniere
+H81.1,Vertigo paroxistico benigno
+H81.2,Neuronitis vestibular
+H81.3,Otros vertigos perifericos
+H81.4,Vertigo de origen central
+H81.9,Trastorno de la funcion vestibular no especificado
+H82,Sindromes vertiginosos en enfermedades clasificadas en otra parte
+H83,Otros trastornos del oido interno
+H83.0,Laberintitis
+H83.1,Hipoacusia ototoxica
+H83.2,Hipoacusia inducida por ruido
+H83.9,Trastorno del oido interno no especificado
+H90,Hipoacusia conductiva y neurosensorial
+H90.0,Hipoacusia conductiva bilateral
+H90.1,Hipoacusia conductiva unilateral con audicion irrestricta contralateral
+H90.2,Hipoacusia conductiva sin otra especificacion
+H90.3,Hipoacusia neurosensorial bilateral
+H90.4,Hipoacusia neurosensorial unilateral con audicion irrestricta contralateral
+H90.5,Hipoacusia neurosensorial sin otra especificacion
+H90.6,Hipoacusia mixta conductiva y neurosensorial bilateral
+H90.7,Hipoacusia mixta conductiva y neurosensorial unilateral con audicion irrestricta contralateral
+H90.8,Hipoacusia mixta conductiva y neurosensorial sin otra especificacion
+H91,Otras hipoacusias
+H91.0,Hipoacusia ototoxica
+H91.1,Presbiacusia
+H91.2,Hipoacusia subita idiopatica
+H91.3,Sordomudez no clasificada en otra parte
+H91.8,Otras hipoacusias especificadas
+H91.9,Hipoacusia no especificada
+H92,Otalgia y secrecion del oido
+H92.0,Otalgia
+H92.1,Otorrea
+H93,Otros trastornos del oido no clasificados en otra parte
+H93.0,Trastornos degenerativos y vasculares del oido
+H93.1,Tinnitus
+H93.2,Otras percepciones auditivas anormales
+H93.3,Trastornos del nervio acustico
+H93.9,Trastorno del oido no especificado
+H95,Trastornos del oido y de la apofisis mastoides consecutivos a procedimientos no clasificados en otra parte
+I00,Fiebre reumatica sin mencion de complicacion cardiaca
+I01,Fiebre reumatica con complicacion cardiaca
+I01.0,Pericarditis reumatica aguda
+I01.1,Endocarditis reumatica aguda
+I01.2,Miocarditis reumatica aguda
+I02,Corea reumatica
+I05,Enfermedades reumaticas de la valvula mitral
+I05.0,Estenosis mitral
+I05.1,Insuficiencia mitral reumatica
+I05.2,Estenosis mitral con insuficiencia
+I05.9,Enfermedad de la valvula mitral no especificada
+I06,Enfermedades reumaticas de la valvula aortica
+I06.0,Estenosis aortica reumatica
+I06.1,Insuficiencia aortica reumatica
+I06.2,Estenosis aortica reumatica con insuficiencia
+I07,Enfermedades reumaticas de la valvula tricuspide
+I08,Enfermedades valvulares multiples
+I09,Otras enfermedades reumaticas del corazon
+I09.0,Miocarditis reumatica
+I09.9,Enfermedad reumatica del corazon no especificada
+I10,Hipertension esencial (primaria)
+I11,Enfermedad cardiaca hipertensiva
+I11.0,Enfermedad cardiaca hipertensiva con insuficiencia cardiaca (congestiva)
+I11.9,Enfermedad cardiaca hipertensiva sin insuficiencia cardiaca (congestiva)
+I12,Enfermedad renal hipertensiva
+I12.0,Enfermedad renal hipertensiva con insuficiencia renal
+I12.9,Enfermedad renal hipertensiva sin insuficiencia renal
+I13,Enfermedad cardiorrenal hipertensiva
+I13.0,Enfermedad cardiorrenal hipertensiva con insuficiencia cardiaca (congestiva)
+I13.1,Enfermedad cardiorrenal hipertensiva con insuficiencia renal
+I13.2,Enfermedad cardiorrenal hipertensiva con insuficiencia cardiaca (congestiva) e insuficiencia renal
+I13.9,Enfermedad cardiorrenal hipertensiva no especificada
+I15,Hipertension secundaria
+I15.0,Hipertension renovascular
+I15.9,Hipertension secundaria no especificada
+I20,Angina de pecho
+I20.0,Angina inestable
+I20.1,Angina de pecho con espasmo documentado
+I20.8,Otras formas de angina de pecho
+I20.9,Angina de pecho no especificada
+I21,Infarto agudo del miocardio
+I21.0,Infarto transmural agudo del miocardio de la pared anterior
+I21.1,Infarto transmural agudo del miocardio de la pared inferior
+I21.2,Infarto agudo transmural del miocardio de otros sitios
+I21.3,Infarto transmural agudo del miocardio de sitio no especificado
+I21.4,Infarto agudo del miocardio subendocardico
+I21.9,Infarto agudo del miocardio sin otra especificacion
+I22,Infarto subsecuente del miocardio
+I23,Ciertas complicaciones presentes posteriores al infarto agudo del miocardio
+I24,Otras enfermedades isquemicas agudas del corazon
+I24.0,Trombosis coronaria que no resulta en infarto del miocardio
+I24.8,Otras formas de enfermedad isquemica aguda del corazon
+I24.9,Enfermedad isquemica aguda del corazon no especificada
+I25,Enfermedad isquemica cronica del corazon
+I25.0,Enfermedad cardiovascular aterosclerotica asi descrita
+I25.1,Enfermedad aterosclerotica del corazon
+I25.2,Infarto antiguo del miocardio
+I25.3,Aneurisma cardiaco
+I25.5,Cardiomiopatia isquemica
+I25.8,Otras formas de enfermedad isquemica cronica del corazon
+I25.9,Enfermedad isquemica cronica del corazon no especificada
+I26,Embolia pulmonar
+I26.0,Embolia pulmonar con mencion de cor pulmonale agudo
+I26.9,Embolia pulmonar sin mencion de cor pulmonale agudo
+I27,Otras enfermedades cardiopulmonares
+I27.0,Hipertension pulmonar primaria
+I27.2,Otras hipertensiones pulmonares secundarias
+I27.9,Enfermedad cardiopulmonar no especificada
+I28,Otras enfermedades de los vasos pulmonares
+I30,Pericarditis aguda
+I30.0,Pericarditis idiopatica aguda inespecifica
+I30.9,Pericarditis aguda no especificada
+I31,Otras enfermedades del pericardio
+I31.0,Pericarditis cronica adhesiva
+I31.1,Pericarditis constrictiva cronica
+I31.3,Derrame pericardico (no inflamatorio)
+I31.9,Enfermedad del pericardio no especificada
+I33,Endocarditis aguda y subaguda
+I33.0,Endocarditis infecciosa aguda y subaguda
+I33.9,Endocarditis aguda no especificada
+I34,Trastornos no reumaticos de la valvula mitral
+I34.0,Insuficiencia (de la valvula) mitral
+I34.1,Prolapso (de la valvula) mitral
+I34.2,Estenosis (de la valvula) mitral no reumatica
+I35,Trastornos no reumaticos de la valvula aortica
+I35.0,Estenosis (de la valvula) aortica
+I35.1,Insuficiencia (de la valvula) aortica
+I35.2,Estenosis (de la valvula) aortica con insuficiencia
+I35.9,Trastorno de la valvula aortica no especificado
+I36,Trastornos no reumaticos de la valvula tricuspide
+I37,Trastornos de la valvula pulmonar
+I38,Endocarditis valvula no especificada
+I39,Endocarditis y trastornos valvulares en enfermedades clasificadas en otra parte
+I40,Miocarditis aguda
+I40.0,Miocarditis infecciosa
+I40.9,Miocarditis aguda no especificada
+I41,Miocarditis en enfermedades clasificadas en otra parte
+I42,Cardiomiopatia
+I42.0,Cardiomiopatia dilatada
+I42.1,Cardiomiopatia obstructiva hipertrofica
+I42.2,Otra cardiomiopatia hipertrofica
+I42.5,Otras cardiomiopatias restrictivas
+I42.6,Cardiomiopatia alcoholica
+I42.7,Cardiomiopatia debida a drogas y otros agentes externos
+I42.9,Cardiomiopatia no especificada
+I44,Bloqueo auriculoventricular y de rama izquierda del haz
+I44.0,Bloqueo auriculoventricular de primer grado
+I44.1,Bloqueo auriculoventricular de segundo grado
+I44.2,Bloqueo auriculoventricular completo
+I44.7,Bloqueo de rama izquierda del haz no especificado
+I45,Otros trastornos de la conduccion
+I45.0,Bloqueo de la rama derecha del haz
+I45.1,Otros tipos y los no especificados de bloqueo de la rama derecha del haz
+I45.6,Sindrome de pre-excitacion
+I46,Paro cardiaco
+I46.0,Paro cardiaco con resucitacion exitosa
+I46.1,Muerte subita cardiaca asi descrita
+I46.9,Paro cardiaco no especificado
+I47,Taquicardia paroxistica
+I47.0,Arritmia por reentrada ventricular
+I47.1,Taquicardia supraventricular
+I47.2,Taquicardia ventricular
+I47.9,Taquicardia paroxistica no especificada
+I48,Fibrilacion y aleteo auricular
+I49,Otras arritmias cardiacas
+I49.0,Fibrilacion y aleteo ventricular
+I49.1,Despolarizacion prematura auricular
+I49.3,Despolarizacion prematura ventricular
+I49.5,Sindrome del seno enfermo
+I49.8,Otras arritmias cardiacas especificadas
+I49.9,Arritmia cardiaca no especificada
+I50,Insuficiencia cardiaca
+I50.0,Insuficiencia cardiaca congestiva
+I50.1,Insuficiencia ventricular izquierda
+I50.9,Insuficiencia cardiaca no especificada
+I51,Complicaciones y descripciones mal definidas de enfermedad cardiaca
+I51.4,Miocarditis no especificada
+I51.6,Enfermedad cardiovascular no especificada
+I51.7,Cardiomegalia
+I51.9,Enfermedad cardiaca no especificada
+I60,Hemorragia subaracnoidea
+I60.9,Hemorragia subaracnoidea no especificada
+I61,Hemorragia intraencefalica
+I61.0,Hemorragia intraencefalica hemisferica subcortical
+I61.1,Hemorragia intraencefalica hemisferica cortical
+I61.3,Hemorragia intraencefalica del tallo cerebral
+I61.4,Hemorragia intraencefalica cerebelosa
+I61.5,Hemorragia intraencefalica intraventricular
+I61.9,Hemorragia intraencefalica no especificada
+I62,Otras hemorragias intracraneales no traumaticas
+I62.0,Hemorragia subdural (aguda) (no traumatica)
+I62.1,Hemorragia extradural no traumatica
+I62.9,Hemorragia intracraneal (no traumatica) no especificada
+I63,Infarto cerebral
+I63.0,Infarto cerebral debido a trombosis de arterias precerebrales
+I63.1,Infarto cerebral debido a embolia de arterias precerebrales
+I63.2,Infarto cerebral debido a oclusion o estenosis no especificada de arterias precerebrales
+I63.3,Infarto cerebral debido a trombosis de arterias cerebrales
+I63.4,Infarto cerebral debido a embolia de arterias cerebrales
+I63.5,Infarto cerebral debido a oclusion o estenosis no especificada de arterias cerebrales
+I63.9,Infarto cerebral no especificado
+I64,Accidente vascular encefalico agudo no especificado como hemorragico o isquemico
+I65,Oclusion y estenosis de las arterias precerebrales sin ocasionar infarto cerebral
+I65.0,Oclusion y estenosis de la arteria vertebral
+I65.2,Oclusion y estenosis de la arteria carotida
+I65.9,Oclusion y estenosis de arteria precerebral no especificada
+I66,Oclusion y estenosis de las arterias cerebrales sin ocasionar infarto cerebral
+I67,Otras enfermedades cerebrovasculares
+I67.0,Diseccion de arterias cerebrales sin ruptura
+I67.1,Aneurisma cerebral sin ruptura
+I67.2,Aterosclerosis cerebral
+I67.4,Encefalopatia hipertensiva
+I67.8,Otras enfermedades cerebrovasculares especificadas
+I67.9,Enfermedad cerebrovascular no especificada
+I69,Secuelas de enfermedad cerebrovascular
+I69.0,Secuelas de hemorragia subaracnoidea
+I69.1,Secuelas de hemorragia intraencefalica
+I69.3,Secuelas de infarto cerebral
+I69.4,Secuelas de enfermedad cerebrovascular no especificada como hemorragica u oclusiva
+I69.8,Secuelas de otras enfermedades cerebrovasculares y de las no especificadas
+I70,Aterosclerosis
+I70.0,Aterosclerosis de la aorta
+I70.1,Aterosclerosis de la arteria renal
+I70.2,Aterosclerosis de las arterias de los miembros
+I70.9,Aterosclerosis generalizada y la no especificada
+I71,Aneurisma y diseccion aorticos
+I71.0,Diseccion de la aorta [cualquier parte]
+I71.3,Aneurisma de la aorta abdominal roto
+I71.4,Aneurisma de la aorta abdominal sin mencion de ruptura
+I71.9,Aneurisma de la aorta sitio no especificado sin mencion de ruptura
+I72,Otros aneurismas
+I73,Otras enfermedades vasculares perifericas
+I73.0,Sindrome de Raynaud
+I73.1,Tromboangeitis obliterante [enfermedad de Buerger]
+I73.8,Otras enfermedades vasculares perifericas especificadas
+I73.9,Enfermedad vascular periferica no especificada
+I74,Embolia y trombosis arteriales
+I74.0,Embolia y trombosis de la aorta abdominal
+I74.3,Embolia y trombosis de arterias de los miembros inferiores
+I74.9,Embolia y trombosis de arteria no especificada
+I77,Otros trastornos arteriales o arteriolares
+I77.1,Estenosis de arteria
+I77.6,Arteritis no especificada
+I78,Enfermedades de los capilares
+I78.0,Telangiectasia hemorragica hereditaria
+I79,Trastornos de las arterias arteriolas y capilares en enfermedades clasificadas en otra parte
+I80,Flebitis y tromboflebitis
+I80.0,Flebitis y tromboflebitis de vasos superficiales de los miembros inferiores
+I80.1,Flebitis y tromboflebitis de la vena femoral
+I80.2,Flebitis y tromboflebitis de otros vasos profundos de los miembros inferiores
+I80.3,Flebitis y tromboflebitis de los miembros inferiores no especificada
+I80.9,Flebitis y tromboflebitis de sitio no especificado
+I81,Trombosis de la vena porta
+I82,Otra embolia y trombosis venosas
+I82.0,Sindrome de Budd-Chiari
+I82.9,Embolia y trombosis de vena no especificada
+I83,Venas varicosas de los miembros inferiores
+I83.0,Venas varicosas de los miembros inferiores con ulcera
+I83.1,Venas varicosas de los miembros inferiores con inflamacion
+I83.2,Venas varicosas de los miembros inferiores con ulcera e inflamacion
+I83.9,Venas varicosas de los miembros inferiores sin ulcera ni inflamacion
+I84,Hemorroides
+I84.0,Hemorroides internas trombosadas
+I84.1,Hemorroides internas con otras complicaciones
+I84.2,Hemorroides internas sin complicacion
+I84.3,Hemorroides externas trombosadas
+I84.4,Hemorroides externas con otras complicaciones
+I84.5,Hemorroides externas sin complicacion
+I84.6,Residuos de hemorroides cutaneos del ano
+I84.9,Hemorroides no especificadas sin complicacion
+I85,Varices esofagicas
+I85.0,Varices esofagicas con hemorragia
+I85.9,Varices esofagicas sin hemorragia
+I86,Varices de otros sitios
+I87,Otros trastornos de las venas
+I87.0,Sindrome postflebitico
+I87.1,Compresion de vena
+I87.2,Insuficiencia venosa (cronica) (periferica)
+I87.9,Trastorno de la vena no especificado
+I88,Linfadenitis inespecifica
+I88.0,Linfadenitis mesenterica inespecifica
+I88.1,Linfadenitis cronica excepto la mesenterica
+I88.9,Linfadenitis inespecifica sin otra especificacion
+I89,Otros trastornos no infecciosos de los vasos y ganglios linfaticos
+I89.0,Linfedema no clasificado en otra parte
+I89.1,Linfangitis
+I95,Hipotension
+I95.0,Hipotension idiopatica
+I95.1,Hipotension ortostatica
+I95.9,Hipotension no especificada
+I97,Trastornos del sistema circulatorio consecutivos a procedimientos no clasificados en otra parte
+I99,Otros trastornos y los no especificados del sistema circulatorio
+J00,Rinofaringitis aguda [resfriado comun]
+J01,Sinusitis aguda
+J01.0,Sinusitis maxilar aguda
+J01.1,Sinusitis frontal aguda
+J01.2,Sinusitis etmoidal aguda
+J01.3,Sinusitis esfenoidal aguda
+J01.4,Pansinusitis aguda
+J01.8,Otras sinusitis agudas
+J01.9,Sinusitis aguda no especificada
+J02,Faringitis aguda
+J02.0,Faringitis estreptococica
+J02.8,Faringitis aguda debida a otros microorganismos especificados
+J02.9,Faringitis aguda no especificada
+J03,Amigdalitis aguda
+J03.0,Amigdalitis estreptococica
+J03.8,Amigdalitis aguda debida a otros microorganismos especificados
+J03.9,Amigdalitis aguda no especificada
+J04,Laringitis y traqueitis agudas
+J04.0,Laringitis aguda
+J04.1,Traqueitis aguda
+J04.2,Laringotraqueitis aguda
+J05,Laringitis obstructiva aguda [crup] y epiglotitis
+J05.0,Laringitis obstructiva aguda [crup]
+J05.1,Epiglotitis aguda
+J06,Infecciones agudas de las vias respiratorias superiores de sitios multiples y no especificados
+J06.0,Laringofaringitis aguda
+J06.8,Otras infecciones agudas de las vias respiratorias superiores sitios multiples
+J06.9,Infeccion aguda de las vias respiratorias superiores no especificada
+J09,Influenza debida a ciertos virus de la influenza identificados
+J10,Influenza debida a otro virus de la influenza identificado
+J10.0,Influenza con neumonia virus de la influenza estacional identificado
+J10.1,Influenza con otras manifestaciones respiratorias virus de la influenza estacional identificado
+J10.8,Influenza con otras manifestaciones virus de la influenza estacional identificado
+J11,Influenza debida a virus no identificado
+J11.0,Influenza con neumonia virus no identificado
+J11.1,Influenza con otras manifestaciones respiratorias virus no identificado
+J11.8,Influenza con otras manifestaciones virus no identificado
+J12,Neumonia viral no clasificada en otra parte
+J12.0,Neumonia debida a adenovirus
+J12.1,Neumonia debida a virus sincitial respiratorio
+J12.8,Neumonia debida a otros virus
+J12.9,Neumonia viral no especificada
+J13,Neumonia debida a Streptococcus pneumoniae
+J14,Neumonia debida a Haemophilus influenzae
+J15,Neumonia bacteriana no clasificada en otra parte
+J15.0,Neumonia debida a Klebsiella pneumoniae
+J15.1,Neumonia debida a Pseudomonas
+J15.2,Neumonia debida a estafilococo
+J15.4,Neumonia debida a otros estreptococos
+J15.5,Neumonia debida a Escherichia coli
+J15.6,Neumonia debida a otras bacterias aerobicas gramnegativas
+J15.7,Neumonia debida a Mycoplasma pneumoniae
+J15.8,Otras neumonias bacterianas
+J15.9,Neumonia bacteriana no especificada
+J16,Neumonia debida a otros microorganismos infecciosos no clasificados en otra parte
+J17,Neumonia en enfermedades clasificadas en otra parte
+J18,Neumonia organismo no especificado
+J18.0,Bronconeumonia no especificada
+J18.1,Neumonia lobar no especificada
+J18.2,Neumonia hipostatica no especificada
+J18.8,Otras neumonias de microorganismo no especificado
+J18.9,Neumonia no especificada
+J20,Bronquitis aguda
+J20.0,Bronquitis aguda debida a Mycoplasma pneumoniae
+J20.4,Bronquitis aguda debida a virus parainfluenza
+J20.5,Bronquitis aguda debida a virus sincitial respiratorio
+J20.8,Bronquitis aguda debida a otros microorganismos especificados
+J20.9,Bronquitis aguda no especificada
+J21,Bronquiolitis aguda
+J21.0,Bronquiolitis aguda debida a virus sincitial respiratorio
+J21.8,Bronquiolitis aguda debida a otros microorganismos especificados
+J21.9,Bronquiolitis aguda no especificada
+J22,Infeccion aguda no especificada de las vias respiratorias inferiores
+J30,Rinitis alergica y vasomotora
+J30.0,Rinitis vasomotora
+J30.1,Rinitis alergica debida al polen
+J30.2,Otra rinitis alergica estacional
+J30.3,Otras rinitis alergicas
+J30.4,Rinitis alergica no especificada
+J31,Rinitis nasofaringitis y faringitis cronicas
+J31.0,Rinitis cronica
+J31.1,Nasofaringitis cronica
+J31.2,Faringitis cronica
+J32,Sinusitis cronica
+J32.0,Sinusitis maxilar cronica
+J32.1,Sinusitis frontal cronica
+J32.4,Pansinusitis cronica
+J32.8,Otras sinusitis cronicas
+J32.9,Sinusitis cronica no especificada
+J33,Polipo nasal
+J33.0,Polipo de la cavidad nasal
+J33.1,Degeneracion polipoide del seno paranasal
+J33.8,Otros polipos de los senos paranasales
+J33.9,Polipo nasal no especificado
+J34,Otros trastornos de la nariz y de los senos paranasales
+J34.0,Absceso forunculo y antrax de la nariz
+J34.1,Quiste y mucocele de la nariz y del seno paranasal
+J34.2,Desviacion del tabique nasal
+J34.3,Hipertrofia de los cornetes nasales
+J34.8,Otros trastornos especificados de la nariz y de los senos paranasales
+J35,Enfermedades cronicas de las amigdalas y de las adenoides
+J35.0,Amigdalitis cronica
+J35.1,Hipertrofia de las amigdalas
+J35.2,Hipertrofia de las adenoides
+J35.3,Hipertrofia de las amigdalas con hipertrofia de las adenoides
+J35.8,Otras enfermedades cronicas de las amigdalas y de las adenoides
+J35.9,Enfermedad cronica de las amigdalas y de las adenoides no especificada
+J36,Absceso periamigdalino
+J37,Laringitis y laringotraqueitis cronicas
+J37.0,Laringitis cronica
+J37.1,Laringotraqueitis cronica
+J38,Enfermedades de las cuerdas vocales y de la laringe no clasificadas en otra parte
+J38.0,Paralisis de las cuerdas vocales y de la laringe
+J38.1,Polipo de las cuerdas vocales y de la laringe
+J38.2,Nodulos de las cuerdas vocales
+J38.3,Otras enfermedades de las cuerdas vocales
+J38.4,Edema de la laringe
+J38.5,Espasmo laringeo
+J38.6,Estenosis de la laringe
+J38.7,Otras enfermedades de la laringe
+J39,Otras enfermedades de las vias respiratorias superiores
+J39.0,Absceso retrofaringeo y parafaringeo
+J39.1,Otro absceso de la faringe
+J39.2,Otras enfermedades de la faringe
+J39.9,Enfermedad de las vias respiratorias superiores no especificada
+J40,Bronquitis no especificada como aguda o cronica
+J41,Bronquitis cronica simple y mucopurulenta
+J41.0,Bronquitis cronica simple
+J41.1,Bronquitis cronica mucopurulenta
+J42,Bronquitis cronica no especificada
+J43,Enfisema
+J43.0,Sindrome de MacLeod
+J43.1,Enfisema panlobular
+J43.2,Enfisema centrolobular
+J43.9,Enfisema no especificado
+J44,Otras enfermedades pulmonares obstructivas cronicas
+J44.0,Enfermedad pulmonar obstructiva cronica con infeccion aguda de las vias respiratorias inferiores
+J44.1,Enfermedad pulmonar obstructiva cronica con exacerbacion aguda no especificada
+J44.8,Otras enfermedades pulmonares obstructivas cronicas especificadas
+J44.9,Enfermedad pulmonar obstructiva cronica no especificada
+J45,Asma
+J45.0,Asma predominantemente alergica
+J45.1,Asma no alergica
+J45.8,Asma mixta
+J45.9,Asma no especificada
+J46,Estado asmatico
+J47,Bronquiectasia
+J60,Neumoconiosis de los mineros del carbon
+J61,Neumoconiosis debida al asbesto y a otras fibras minerales
+J62,Neumoconiosis debida a polvo de silice
+J63,Neumoconiosis debida a otros polvos inorganicos
+J64,Neumoconiosis no especificada
+J65,Neumoconiosis asociada con tuberculosis
+J66,Enfermedad de las vias aereas debida a polvos organicos especificos
+J67,Neumonitis debida a hipersensibilidad al polvo organico
+J67.9,Neumonitis debida a hipersensibilidad al polvo organico no especificado
+J68,Afecciones respiratorias debidas a inhalacion de gases humos vapores y sustancias quimicas
+J68.0,Bronquitis y neumonitis quimica
+J68.4,Afecciones respiratorias cronicas debidas a productos quimicos gases humos y vapores
+J69,Neumonitis debida a solidos y liquidos
+J69.0,Neumonitis debida a aspiracion de alimento o vomito
+J69.1,Neumonitis debida a aspiracion de aceites y esencias
+J70,Afecciones respiratorias debidas a otros agentes externos
+J80,Sindrome de dificultad respiratoria del adulto
+J81,Edema pulmonar
+J82,Eosinofilia pulmonar no clasificada en otra parte
+J84,Otras enfermedades pulmonares intersticiales
+J84.0,Afecciones alveolares y alveoloparietales
+J84.1,Otras enfermedades pulmonares intersticiales con fibrosis
+J84.9,Enfermedad pulmonar intersticial no especificada
+J85,Absceso del pulmon y del mediastino
+J85.0,Gangrena y necrosis del pulmon
+J85.1,Absceso del pulmon con neumonia
+J85.2,Absceso del pulmon sin neumonia
+J86,Piotorax
+J86.0,Piotorax con fistula
+J86.9,Piotorax sin fistula
+J90,Derrame pleural no clasificado en otra parte
+J91,Derrame pleural en afecciones clasificadas en otra parte
+J92,Paquipleuritis
+J93,Neumotorax
+J93.0,Neumotorax espontaneo a tension
+J93.1,Otros tipos de neumotorax espontaneo
+J93.9,Neumotorax no especificado
+J94,Otras afecciones de la pleura
+J94.0,Quilotorax
+J94.1,Fibrotorax
+J94.2,Hemotorax
+J95,Trastornos del sistema respiratorio consecutivos a procedimientos no clasificados en otra parte
+J95.0,Mal funcionamiento de la traqueostomia
+J95.5,Estenosis subglotica consecutiva a procedimientos
+J96,Insuficiencia respiratoria no clasificada en otra parte
+J96.0,Insuficiencia respiratoria aguda
+J96.1,Insuficiencia respiratoria cronica
+J96.9,Insuficiencia respiratoria no especificada
+J98,Otros trastornos respiratorios
+J98.0,Enfermedades de la traquea y de los bronquios no clasificadas en otra parte
+J98.1,Colapso pulmonar
+J98.4,Otros trastornos del pulmon
+J98.5,Enfermedades del mediastino no clasificadas en otra parte
+J98.6,Trastornos del diafragma
+J98.9,Trastorno respiratorio no especificado
+J99,Trastornos respiratorios en enfermedades clasificadas en otra parte

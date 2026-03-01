@@ -11,7 +11,8 @@
     "db:migrate": "drizzle-kit migrate",
     "db:push": "drizzle-kit push",
     "db:studio": "drizzle-kit studio",
-    "db:seed": "npx tsx scripts/seed-reference-data.ts"
+    "db:seed": "npx tsx scripts/seed-reference-data.ts",
+    "db:fetch-divipola": "npx tsx scripts/fetch-divipola.ts"
   },
   "dependencies": {
     "bcryptjs": "^3.0.2",
