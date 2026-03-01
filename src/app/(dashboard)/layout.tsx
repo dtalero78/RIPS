@@ -10,9 +10,13 @@ import Header from "@/components/layout/header";
 const pageTitles: Record<string, string> = {
   "/dashboard": "Dashboard",
   "/pacientes": "Pacientes",
+  "/pacientes/nuevo": "Nuevo Paciente",
   "/medicos": "Medicos",
+  "/medicos/nuevo": "Nuevo Medico",
   "/servicios": "Servicios",
+  "/servicios/nuevo": "Nuevo Servicio",
   "/atenciones": "Atenciones",
+  "/atenciones/nueva": "Nueva Atencion",
   "/rips": "Generacion RIPS",
   "/configuracion": "Configuracion",
 };

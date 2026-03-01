@@ -10,7 +10,8 @@
  *   2. Set DATABASE_URL in .env.local or as environment variable
  */
 
-import "dotenv/config";
+import { config } from "dotenv";
+config({ path: ".env.local" });
 import { drizzle } from "drizzle-orm/postgres-js";
 import postgres from "postgres";
 import {
