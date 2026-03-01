@@ -44,5 +44,9 @@ next-env.d.ts
 *.png
 *.jpeg
 
+# allow images in public/
+!public/**/*.png
+!public/**/*.jpeg
+
 # playwright
 .playwright-mcp/
