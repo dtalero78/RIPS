@@ -8,6 +8,7 @@ import {
   Stethoscope,
   ClipboardList,
   FileText,
+  FileStack,
   Receipt,
   Settings,
   X,
@@ -19,6 +20,7 @@ const navigation = [
   { name: "Medicos", href: "/medicos", icon: Stethoscope },
   { name: "Servicios", href: "/servicios", icon: ClipboardList },
   { name: "Atenciones", href: "/atenciones", icon: FileText },
+  { name: "Facturas", href: "/facturas", icon: FileStack },
   { name: "RIPS", href: "/rips", icon: Receipt },
   { name: "Configuracion", href: "/configuracion", icon: Settings },
 ];

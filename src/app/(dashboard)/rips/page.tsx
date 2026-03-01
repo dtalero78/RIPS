@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { FileJson, Play, Download, AlertTriangle, CheckCircle2, Loader2, Eye, Clock } from "lucide-react";
 import { generarRips, getRipsGeneraciones, getRipsGeneracion } from "@/actions/rips";
+import { getFacturasSimple } from "@/actions/facturas";
 import toast from "react-hot-toast";
 import type { RipsGeneracion } from "@/db/schema";
 
@@ -13,8 +14,11 @@ const ESTADO_STYLES: Record<string, { bg: string; icon: React.ReactNode }> = {
 
 export default function RipsPage() {
   const [tab, setTab] = useState<"generar" | "historial">("generar");
+  const [modo, setModo] = useState<"periodo" | "factura">("periodo");
   const [fechaDesde, setFechaDesde] = useState("");
   const [fechaHasta, setFechaHasta] = useState("");
+  const [facturaId, setFacturaId] = useState("");
+  const [facturasList, setFacturasList] = useState<{ id: string; numFactura: string }[]>([]);
   const [generating, setGenerating] = useState(false);
   const [result, setResult] = useState<{
     id: string;
@@ -29,6 +33,9 @@ export default function RipsPage() {
 
   useEffect(() => {
     if (tab === "historial") loadHistory();
+    if (tab === "generar") {
+      getFacturasSimple().then(setFacturasList).catch(() => {});
+    }
   }, [tab]);
 
   async function loadHistory() {
@@ -44,14 +51,21 @@ export default function RipsPage() {
   }
 
   async function handleGenerate() {
-    if (!fechaDesde || !fechaHasta) {
+    if (modo === "periodo" && (!fechaDesde || !fechaHasta)) {
       toast.error("Selecciona el rango de fechas");
+      return;
+    }
+    if (modo === "factura" && !facturaId) {
+      toast.error("Selecciona una factura");
       return;
     }
     setGenerating(true);
     setResult(null);
     try {
-      const res = await generarRips({ fechaDesde, fechaHasta });
+      const params = modo === "factura"
+        ? { facturaId }
+        : { fechaDesde, fechaHasta };
+      const res = await generarRips(params);
       setResult(res);
       if (res.hasErrors) {
         toast.error(`Generado con ${res.errors.length} advertencias`);
@@ -112,22 +126,54 @@ export default function RipsPage() {
 
       {tab === "generar" && (
         <div className="space-y-6">
-          {/* Step 1: Date Range */}
+          {/* Step 1: Select Mode + Filter */}
           <div className="card p-6 space-y-4">
             <h3 className="font-semibold text-gray-800 flex items-center gap-2">
               <span className="w-6 h-6 bg-blue-600 text-white rounded-full flex items-center justify-center text-xs font-bold">1</span>
-              Seleccionar Periodo
+              Seleccionar Origen
             </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div>
-                <label className="form-label">Fecha Desde *</label>
-                <input type="date" value={fechaDesde} onChange={(e) => setFechaDesde(e.target.value)} className="form-input" />
-              </div>
-              <div>
-                <label className="form-label">Fecha Hasta *</label>
-                <input type="date" value={fechaHasta} onChange={(e) => setFechaHasta(e.target.value)} className="form-input" />
-              </div>
+
+            <div className="flex gap-2">
+              <button type="button"
+                onClick={() => setModo("periodo")}
+                className={`px-4 py-2 text-sm font-medium rounded-lg border transition-colors ${
+                  modo === "periodo" ? "bg-blue-50 border-blue-300 text-blue-700" : "border-gray-200 text-gray-600 hover:bg-gray-50"
+                }`}>
+                Por Periodo
+              </button>
+              <button type="button"
+                onClick={() => setModo("factura")}
+                className={`px-4 py-2 text-sm font-medium rounded-lg border transition-colors ${
+                  modo === "factura" ? "bg-blue-50 border-blue-300 text-blue-700" : "border-gray-200 text-gray-600 hover:bg-gray-50"
+                }`}>
+                Por Factura
+              </button>
             </div>
+
+            {modo === "periodo" && (
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                  <label className="form-label">Fecha Desde *</label>
+                  <input type="date" value={fechaDesde} onChange={(e) => setFechaDesde(e.target.value)} className="form-input" />
+                </div>
+                <div>
+                  <label className="form-label">Fecha Hasta *</label>
+                  <input type="date" value={fechaHasta} onChange={(e) => setFechaHasta(e.target.value)} className="form-input" />
+                </div>
+              </div>
+            )}
+
+            {modo === "factura" && (
+              <div className="max-w-md">
+                <label className="form-label">Factura *</label>
+                <select value={facturaId} onChange={(e) => setFacturaId(e.target.value)} className="form-input">
+                  <option value="">Seleccionar factura...</option>
+                  {facturasList.map((f) => (
+                    <option key={f.id} value={f.id}>{f.numFactura}</option>
+                  ))}
+                </select>
+              </div>
+            )}
           </div>
 
           {/* Step 2: Generate */}

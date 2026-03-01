@@ -6,6 +6,7 @@ import { ArrowLeft, Save, Loader2 } from "lucide-react";
 import { getAtencion, createAtencion, updateAtencion } from "@/actions/atenciones";
 import { getPacientes } from "@/actions/pacientes";
 import { getMedicos } from "@/actions/medicos";
+import { getFacturasSimple } from "@/actions/facturas";
 import { CupsSearch } from "@/components/shared/cups-search";
 import { Cie10Search } from "@/components/shared/cie10-search";
 import toast from "react-hot-toast";
@@ -53,6 +54,7 @@ export function AtencionForm({ atencionId }: Props) {
   const [saving, setSaving] = useState(false);
   const [pacientes, setPacientes] = useState<Paciente[]>([]);
   const [medicosList, setMedicosList] = useState<Medico[]>([]);
+  const [facturasList, setFacturasList] = useState<{ id: string; numFactura: string }[]>([]);
   const [cupsValue, setCupsValue] = useState<{ codigo: string; nombre: string } | null>(null);
   const [dxPrincipal, setDxPrincipal] = useState<{ codigo: string; nombre: string } | null>(null);
   const [catalogs, setCatalogs] = useState<{
@@ -78,7 +80,8 @@ export function AtencionForm({ atencionId }: Props) {
       fetch("/api/referencia/catalogos?tipo=tipos-diagnostico").then((r) => r.json()),
       getPacientes(),
       getMedicos(),
-    ]).then(([mod, gru, fin, cau, via, con, amb, tdx, pacs, meds]) => {
+      getFacturasSimple(),
+    ]).then(([mod, gru, fin, cau, via, con, amb, tdx, pacs, meds, facts]) => {
       setCatalogs({
         modalidades: mod, grupos: gru, finalidades: fin,
         causas: cau, vias: via, conceptos: con,
@@ -86,6 +89,7 @@ export function AtencionForm({ atencionId }: Props) {
       });
       setPacientes(pacs);
       setMedicosList(meds);
+      setFacturasList(facts);
     });
 
     if (atencionId) {
@@ -192,7 +196,7 @@ export function AtencionForm({ atencionId }: Props) {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div>
               <label className="form-label">Paciente *</label>
               <select name="pacienteId" value={form.pacienteId} onChange={handleChange} className="form-input" required>
@@ -212,6 +216,15 @@ export function AtencionForm({ atencionId }: Props) {
                   <option key={m.id} value={m.id}>
                     {m.primerNombre} {m.primerApellido} - RM: {m.registroMedico}
                   </option>
+                ))}
+              </select>
+            </div>
+            <div>
+              <label className="form-label">Factura</label>
+              <select name="facturaId" value={form.facturaId} onChange={handleChange} className="form-input">
+                <option value="">Sin factura</option>
+                {facturasList.map((f) => (
+                  <option key={f.id} value={f.id}>{f.numFactura}</option>
                 ))}
               </select>
             </div>
