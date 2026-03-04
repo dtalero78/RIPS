@@ -53,11 +53,18 @@ export default function ConfiguracionPage() {
         setTiposDocumento(tiposDocRes);
         setDepartamentos(depsRes);
 
+        let resolvedCodigo = "";
+        let resolvedNit = "";
+        let resolvedNombre = "";
+
         if (configResult.config) {
           const c = configResult.config;
-          setCodigoPrestador(c.codigoPrestador || "");
-          setNitPrestador(c.nitPrestador || "");
-          setNombrePrestador(c.nombrePrestador || "");
+          resolvedCodigo = c.codigoPrestador || "";
+          resolvedNit = c.nitPrestador || "";
+          resolvedNombre = c.nombrePrestador || "";
+          setCodigoPrestador(resolvedCodigo);
+          setNitPrestador(resolvedNit);
+          setNombrePrestador(resolvedNombre);
           setModalidadDefault(c.modalidadAtencionDefault || "");
           setGrupoServicioDefault(c.grupoServicioDefault || "");
           setViaIngresoDefault(c.viaIngresoDefault || "");
@@ -70,9 +77,9 @@ export default function ConfiguracionPage() {
           }
         }
         if (configResult.tenant) {
-          if (!nombrePrestador) setNombrePrestador(configResult.tenant.razonSocial || configResult.tenant.name);
-          if (!nitPrestador) setNitPrestador(configResult.tenant.nit || "");
-          if (!codigoPrestador) setCodigoPrestador(configResult.tenant.codigoHabilitacion || "");
+          if (!resolvedNombre) setNombrePrestador(configResult.tenant.razonSocial || configResult.tenant.name);
+          if (!resolvedNit) setNitPrestador(configResult.tenant.nit || "");
+          if (!resolvedCodigo) setCodigoPrestador(configResult.tenant.codigoHabilitacion || "");
         }
       } catch (err) {
         console.error("Error loading config:", err);

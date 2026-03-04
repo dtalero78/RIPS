@@ -1,3 +1,6 @@
+"use client";
+
+import { useState, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import {
@@ -7,9 +10,14 @@ import {
   BarChart3,
   CheckCircle,
   ArrowRight,
+  Play,
+  X,
 } from "lucide-react";
 
 export default function Home() {
+  const [showVideo, setShowVideo] = useState(false);
+  const videoRef = useRef<HTMLVideoElement>(null);
+
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
@@ -66,12 +74,13 @@ export default function Home() {
                 Comenzar gratis
                 <ArrowRight className="w-4 h-4" />
               </Link>
-              <Link
-                href="/login"
-                className="inline-flex items-center justify-center text-sm font-semibold text-gray-800 border border-gray-300 bg-white/60 rounded-full px-7 py-3.5 hover:bg-white hover:border-gray-400 transition-all"
+              <button
+                onClick={() => setShowVideo(true)}
+                className="inline-flex items-center justify-center gap-2 text-sm font-semibold text-gray-800 border border-gray-300 bg-white/60 rounded-full px-7 py-3.5 hover:bg-white hover:border-gray-400 transition-all"
               >
-                Ya tengo cuenta
-              </Link>
+                <Play className="w-4 h-4 fill-current" />
+                Ver Demo
+              </button>
             </div>
           </div>
 
@@ -100,6 +109,33 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Video Modal */}
+      {showVideo && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm"
+          onClick={() => setShowVideo(false)}
+        >
+          <div
+            className="relative w-full max-w-7xl mx-4"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              onClick={() => setShowVideo(false)}
+              className="absolute -top-10 right-0 text-white hover:text-gray-300 transition-colors"
+            >
+              <X className="h-8 w-8" />
+            </button>
+            <video
+              ref={videoRef}
+              src="/videoIntro.mp4"
+              controls
+              autoPlay
+              className="w-full rounded-2xl shadow-2xl"
+            />
+          </div>
+        </div>
+      )}
 
       {/* Features */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-16 pb-20">
